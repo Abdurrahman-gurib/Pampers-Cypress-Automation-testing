@@ -1,0 +1,22 @@
+{
+    "env": {
+        "market": null,
+        "baseUrl": null
+    },
+    "integrationFolder": "cypress/integration",
+    "pluginsFile": "cypress/plugins/index.js",
+    "supportFile": "cypress/support/index.js",
+    "video": false,
+    "chromeWebSecurity": true,
+    "defaultCommandTimeout": 20000,
+    "pageLoadTimeout": 75000,
+    "requestTimeout": 15000,
+    "numTestsKeptInMemory": 25,
+    "projectId": "c2x6xy",
+    "reporterOptions": {
+        "timestamp": "ddmmyyyy_HHMMss"
+    },
+    "screenshotsFolder": "cypress/reports/screenshots",
+    "retries": 0,
+    "trashAssetsBeforeRuns": true
+}

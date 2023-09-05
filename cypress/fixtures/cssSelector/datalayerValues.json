@@ -1,0 +1,53 @@
+{
+    "pampers-en-us": {
+        "BINPlatform": "PriceSpider",
+        "ConsentOverlay": "OneTrust",
+        "ConsentOverlayID": "beb1df3c-f5be-4e9b-a5c5-d61a28fa6738",
+        "FacebookConnectAppID": "1402968366699773",
+        "FacebookConnectLocale": "en_US",
+        "FacebookRemarketingID": "",
+        "GoogleAnalyticsBrand": "",
+        "GoogleAnalyticsLocal": "UA-1163687-7",
+        "GoogleAnalyticsOptimizeContainerID": "GTM-M2PDB53",
+        "GoogleAnalyticsReportingView": "64134122",
+        "GoogleAnalyticsSiteSpeedSampleRate": "high",
+        "Segment": "o5uhTRbeDPaMgJpYqG5qQ5iPTbFSdgTV",
+        "SiteBrand": "Pampers",
+        "SiteEnvironment": "Prod",
+        "SiteHost": "AZURE",
+        "SiteLanguage": "English",
+        "SiteLocalContainer": "GTM-KX4XFDH",
+        "SitePlatform": "Multibrand.com",
+        "SitePrivacyProtection": "CCPA",
+        "SiteStatus": "Live",
+        "SiteTechnicalAgency": "Proximity",
+        "SiteTouchpoint": "33259"
+    },
+    "pampers-en-gb": {
+       
+    },
+    "pampers-fr-fr": {
+       
+    },
+    "pampers-de-de": {
+        
+    },
+    "pampers-ja-jp": {
+        
+    },
+    "pampers-pt-br": {
+        
+    },
+    "pampers-ar-sa": {
+        
+    },
+    "pampers-es-es": {
+        
+    },
+    "pampers-en-ca": {
+       
+    },
+    "pampers-en-ae": {
+       
+    }
+}

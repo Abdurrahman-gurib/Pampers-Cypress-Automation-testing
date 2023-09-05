@@ -1,0 +1,6 @@
+{
+    "navigation":"nav",
+    "footer": "footer",
+    "breadcrumb": "ol.c-breadcrumb_list > li:nth-child(1) > a",
+    "menuIndicator": ".menu-content__item.simple-link.event_menu_click"
+}

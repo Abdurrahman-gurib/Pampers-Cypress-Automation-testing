@@ -1,0 +1,75 @@
+{
+    "productLP": {
+        "bsod": "//div[contains(@class, 'product-filter__item--selected')][contains(., '%filter%')]",
+        "elementsShouldBeVisible": [
+            ".catalogs-banner",
+            "[data-cy='product-module']"
+        ],
+        "filterTest": [
+            ".product-filter__item", "#clearAll"
+        ],
+        "seo": ".seo_text__paragraph",
+        "diaperSizeCalculator": {
+            "section": ".dsc--wrapper",
+            "select": "#size-selection",
+            "result": [
+                "#diaper-icon", "#sun-icon", "#calendar-icon"
+            ]
+        },
+        "comparativeTable": {
+            "section": ".event_product_compare",
+            "close": "button[aria-label='Close']"
+        },
+        "BIN": {
+            "priceSpider": {
+                "btn": "(//div[@class='btn-shop']//a[contains(@class,'ps-enabled')])[1]",
+                "img": ".ps-header > div img",
+                "close": "span.ps-lightbox-close"
+            },
+            "lite": {
+                "btn": "(//div[@class='btn-binlite-c ']//span)[1]",
+                "img": ".bin-lite-c img",
+                "close": ".closeModalButton button"
+            }
+        }
+    },
+    "detailPage": {
+        "common": {
+            "banner": ".banner-detail__banner-image img",
+            "productInfo": ".product__info",
+            "shopNow": ".product__cta",
+            "certificationSection": "[data-cy='certification']",
+            "benefitSection": "[data-cy='benefit']",
+            "reviewOverview": "[data-cy='customer-review']",
+            "ratingBar": "[data-cy='rating-bar']",
+            "userReviewSection": "[data-cy='user-reviews']",
+            "userReview": ".review-section .review",
+            "writeReviewSection": "#reviews-write",
+            "productStickyBIN": "[data-cy='sticky-product-detail']",
+            "writeReviewCta": "#reviews-write button"
+        },
+        "writeReviewPopin": {
+            "ratingBar": "[data-cy='rating-bar']",
+            "textArea": ".input-container",
+            "submitBtn": ".submit-button-container button",
+            "close": ".cross-popin"
+        },
+        "oasis": {
+            "embeddedTool": {
+                "embeddedToolSection": "[data-cy='diaper-size-calculator']",
+                "embeddedToolSizeSelection": "#size-selection"
+            },
+            "binColor": "primary-coral"
+        },
+        "pure": {
+            "binColor": "primary-indigo"
+        },
+        "ninjamas": {
+            "binColor": "primary-coral@rgb(115, 62, 189)"
+        },
+        "binType": {
+            "priceSpider": "",
+            "lite": "button"
+        }
+    }
+}

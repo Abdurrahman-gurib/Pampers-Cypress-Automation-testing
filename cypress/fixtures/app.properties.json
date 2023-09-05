@@ -1,0 +1,624 @@
+{
+    "MSTeam": {
+        "activate": false,
+        "url": "https://oneomnicom.webhook.office.com/webhookb2/d190c412-3b4c-4471-b8ff-e2289f1255f8@41eb501a-f671-4ce0-a5bf-b64168c3705f/IncomingWebhook/fb9c152b5a544978b7d549bde140c372/34817edb-2e6f-4f87-a717-e90fe997c4c9"
+    },
+    "apiToWaitBeforeTest": {
+        "method": "GET",
+        "path": "https://cdn.cookielaw.org/scripttemplates/6.24.0/assets/otCommonStyles.css"
+    },
+    "adoric": "https://90396851.adoric-om.com/adoric.js",
+    "build": {
+        "minify": false,
+        "data": [
+            {
+                "fileName": "00_forgotPassword",
+                "specName": "resetPassword",
+                "path": "/crm/00_forgotPassword",
+                "envMarketToUpdate": "(getCrmMarketsScope(crmProperties.forgotPassword))"
+            },
+            {
+                "fileName": "01_registration",
+                "specName": "registration",
+                "path": "/crm/01_registration",
+                "envMarketToUpdate": "(getCrmMarketsScope(crmProperties.registration))"
+            },
+            {
+                "fileName": "02_login",
+                "specName": "login",
+                "path": "/crm/02_login",
+                "envMarketToUpdate": "(getCrmMarketsScope(crmProperties.login))"
+            },
+            {
+                "fileName": "03_editProfile",
+                "specName": "editProfile",
+                "path": "/crm/03_editProfile",
+                "envMarketToUpdate": "(getCrmMarketsScope(crmProperties.editProfile))"
+            },
+            {
+                "fileName": "04_product",
+                "specName": "product",
+                "path": "/product/04_product",
+                "envMarketToUpdate": "(getMarketsScope(productProperties, null))"
+            },
+            {
+                "fileName": "05_babyTools",
+                "specName": "babyTools",
+                "path": "/babyTools/05_babyTools",
+                "envMarketToUpdate": "(getMarketsScope(babyToolsProperties, null))"
+            },
+            {
+                "fileName": "05_babyToolsPregnancyNotif",
+                "specName": "babyToolsPregnancyNotif",
+                "path": "/babyTools/05_babyToolsPregnancyNotif",
+                "envMarketToUpdate": "\"en-US\""
+            },
+            {
+                "fileName": "embeddedToolActivation",
+                "specName": "embeddedToolActivation",
+                "path": "/babyTools/embeddedToolActivation",
+                "envMarketToUpdate": "(embeddedToolProperties.test)"
+            },
+            {
+                "fileName": "search",
+                "specName": "search",
+                "path": "/search/search",
+                "envMarketToUpdate": "(getMarketsScope(testProperties, null))"
+            },
+            {
+                "fileName": "t101_us_optin_ddc_registration-legacyScriptUS",
+                "specName": "t101_us_optin_ddc_registration-legacyScriptUS",
+                "path": "/legacy/t101_us_optin_ddc_registration-legacyScriptUS",
+                "envMarketToUpdate": null
+            },
+            {
+                "fileName": "t102_us_optin_profile-legacyScriptUS",
+                "specName": "t102_us_optin_profile-legacyScriptUS",
+                "path": "/legacy/t102_us_optin_profile-legacyScriptUS",
+                "envMarketToUpdate": null
+            },
+            {
+                "fileName": "t103_us_dataLayer_verification-legacyScriptUS",
+                "specName": "t103_us_dataLayer_verification-legacyScriptUS",
+                "path": "/legacy/t103_us_dataLayer_verification-legacyScriptUS",
+                "envMarketToUpdate": null
+            },
+            {
+                "fileName": "t15_fr_like_feedback-legacyScriptFR",
+                "specName": "t15_fr_like_feedback-legacyScriptFR",
+                "path": "/legacy/t15_fr_like_feedback-legacyScriptFR",
+                "envMarketToUpdate": null
+            },
+            {
+                "fileName": "t15_us_like_feedback-legacyScriptUS",
+                "specName": "t15_us_like_feedback-legacyScriptUS",
+                "path": "/legacy/t15_us_like_feedback-legacyScriptUS",
+                "envMarketToUpdate": null
+            },
+            {
+                "fileName": "t16_fr_hospital_checklist_locked-legacyScriptFR",
+                "specName": "t16_fr_hospital_checklist_locked-legacyScriptFR",
+                "path": "/legacy/t16_fr_hospital_checklist_locked-legacyScriptFR",
+                "envMarketToUpdate": null
+            },
+            {
+                "fileName": "t16_us_hospital_checklist_locked-legacyScriptUS",
+                "specName": "t16_us_hospital_checklist_locked-legacyScriptUS",
+                "path": "/legacy/t16_us_hospital_checklist_locked-legacyScriptUS",
+                "envMarketToUpdate": null
+            },
+            {
+                "fileName": "t17_fr_embedded_bng-legacyScriptFR",
+                "specName": "t17_fr_embedded_bng-legacyScriptFR",
+                "path": "/legacy/t17_fr_embedded_bng-legacyScriptFR",
+                "envMarketToUpdate": null
+            },
+            {
+                "fileName": "t20_fr_header_footer-legacyScriptFR",
+                "specName": "t20_fr_header_footer-legacyScriptFR",
+                "path": "/legacy/t20_fr_header_footer-legacyScriptFR",
+                "envMarketToUpdate": null
+            },
+            {
+                "fileName": "t21_fr_coupon-legacyScriptFR",
+                "specName": "t21_fr_coupon-legacyScriptFR",
+                "path": "/legacy/t21_fr_coupon-legacyScriptFR",
+                "envMarketToUpdate": null
+            },
+            {
+                "fileName": "t21_us_Ergobaby_registration-legacyScriptUS",
+                "specName": "t21_us_Ergobaby_registration-legacyScriptUS",
+                "path": "/legacy/t21_us_Ergobaby_registration-legacyScriptUS",
+                "envMarketToUpdate": null
+            },
+            {
+                "fileName": "t22_de_sample-legacyScriptDE",
+                "specName": "t22_de_sample-legacyScriptDE",
+                "path": "/legacy/t22_de_sample-legacyScriptDE",
+                "envMarketToUpdate": null
+            },
+            {
+                "fileName": "t3_fr_embedded_ddc-legacyScriptFR",
+                "specName": "t3_fr_embedded_ddc-legacyScriptFR",
+                "path": "/legacy/t3_fr_embedded_ddc-legacyScriptFR",
+                "envMarketToUpdate": null
+            },
+            {
+                "fileName": "t3_us_embedded_ddc-legacyScriptUS",
+                "specName": "t3_us_embedded_ddc-legacyScriptUS",
+                "path": "/legacy/t3_us_embedded_ddc-legacyScriptUS",
+                "envMarketToUpdate": null
+            },
+            {
+                "fileName": "t4_fr_editorial_flexible_article-legacyScriptFR",
+                "specName": "t4_fr_editorial_flexible_article-legacyScriptFR",
+                "path": "/legacy/t4_fr_editorial_flexible_article-legacyScriptFR",
+                "envMarketToUpdate": null
+            },
+            {
+                "fileName": "t4_us_editorial_flexible_article-legacyScriptUS",
+                "specName": "t4_us_editorial_flexible_article-legacyScriptUS",
+                "path": "/legacy/t4_us_editorial_flexible_article-legacyScriptUS",
+                "envMarketToUpdate": null
+            },
+            {
+                "fileName": "t9_fr_ddc_lp_unlocked-legacyScriptFR",
+                "specName": "t9_fr_ddc_lp_unlocked-legacyScriptFR",
+                "path": "/legacy/t9_fr_ddc_lp_unlocked-legacyScriptFR",
+                "envMarketToUpdate": null
+            },
+            {
+                "fileName": "z01_logout",
+                "specName": "logout",
+                "path": "/crm/09_logout",
+                "envMarketToUpdate": "(getCrmMarketsScope(crmProperties.logout))"
+            }
+        ]
+    },
+    "main": {
+        "en-US": {
+            "resetPassword": true,
+            "registration": true,
+            "login": true,
+            "editProfile": true,
+            "product": true,
+            "babyTools": true,
+            "babyToolsPregnancyNotif": true,
+            "embeddedToolActivation": true,
+            "search": true,
+            "t101_us_optin_ddc_registration-legacyScriptUS": true,
+            "t102_us_optin_profile-legacyScriptUS": true,
+            "t103_us_dataLayer_verification-legacyScriptUS": true,
+            "t21_us_Ergobaby_registration-legacyScriptUS": true,
+            "t3_us_embedded_ddc-legacyScriptUS": true,
+            "logout": true
+        },
+        "de-DE": {
+            "resetPassword": true,
+            "registration": true,
+            "login": true,
+            "editProfile": true,
+            "product": true,
+            "babyTools": true,
+            "search": true,
+            "logout": true
+        },
+        "fr-FR": {
+            "resetPassword": true,
+            "registration": true,
+            "login": true,
+            "editProfile": true,
+            "product": true,
+            "babyTools": true,
+            "search": true,
+            "logout": false
+        },
+        "ar-SA": {
+            "product": true
+        },
+        "en-IN": {
+            "product": true
+        },
+        "en-AE": {
+            "product": true
+        },
+        "en-PH": {
+            "product": true
+        },
+        "cs-CZ": {
+            "resetPassword": true,
+            "registration": true,
+            "login": true,
+            "editProfile": true,
+            "product": true,
+            "babyTools": true,
+            "logout": true 
+        },
+        "de-AT": {
+            "resetPassword": true,
+            "registration": true,
+            "login": true,
+            "editProfile": true,
+            "product": true,
+            "babyTools": true,
+            "logout": true
+        },
+        "el-GR": {
+            "resetPassword": true,
+            "registration": true,
+            "login": true,
+            "editProfile": true,
+            "product": true,
+            "babyTools": true,
+            "logout": true
+        },
+        "en-CA": {
+            "resetPassword": true,
+            "registration": true,
+            "login": true,
+            "editProfile": true,
+            "product": true,
+            "babyTools": true,
+            "logout": true
+        },
+        "es-AR": {
+            "resetPassword": true,
+            "registration": true,
+            "login": true,
+            "editProfile": true,
+            "product": true,
+            "babyTools": true,
+            "logout": true,
+            "search": true
+        },
+        "fr-CA": {
+            "resetPassword": true,
+            "registration": true,
+            "login": true,
+            "editProfile": true,
+            "product": true,
+            "babyTools": true,
+            "logout": true
+        },
+        "fr-BE": {
+            "resetPassword": true,
+            "registration": true,
+            "login": true,
+            "editProfile": true,
+            "product": true,
+            "babyTools": true,
+            "logout": true
+        },
+        "fi-FI": {
+            "resetPassword": true,
+            "registration": true,
+            "login": true,
+            "editProfile": true,
+            "product": true,
+            "babyTools": true,
+            "logout": true
+        },
+        "es-US": {
+            "resetPassword": true,
+            "registration": true,
+            "login": true,
+            "editProfile": true,
+            "product": true,
+            "babyTools": true,
+            "logout": true
+        },
+        "es-PE": {
+            "resetPassword": true,
+            "registration": true,
+            "login": true,
+            "editProfile": true,
+            "product": true,
+            "babyTools": true,
+            "logout": true,
+            "search": true
+        },
+        "es-MX": {
+            "resetPassword": true,
+            "registration": true,
+            "login": true,
+            "editProfile": true,
+            "product": true,
+            "babyTools": true,
+            "logout": true,
+            "search": true
+        },
+        "es-CL": {
+            "resetPassword": true,
+            "registration": true,
+            "login": true,
+            "editProfile": true,
+            "product": true,
+            "babyTools": true,
+            "logout": true,
+            "search": true
+        },
+        "en-GB": {
+            "resetPassword": true,
+            "registration": true,
+            "login": true,
+            "editProfile": true,
+            "product": true,
+            "babyTools": true,
+            "search": true,
+            "logout": true
+        },
+        "es-ES": {
+            "resetPassword": true,
+            "registration": true,
+            "login": true,
+            "editProfile": true,
+            "product": true,
+            "babyTools": true,
+            "search": true,
+            "logout": true
+        },
+        "he-IL": {
+            "resetPassword": true,
+            "registration": true,
+            "login": true,
+            "editProfile": true,
+            "product": true,
+            "babyTools": true,
+            "logout": true
+        },
+        "hr-HR": {
+            "resetPassword": true,
+            "registration": true,
+            "login": true,
+            "editProfile": true,
+            "product": true,
+            "babyTools": true,
+            "logout": true
+        },
+        "hu-HU": {
+            "resetPassword": true,
+            "registration": true,
+            "login": true,
+            "editProfile": true,
+            "product": true,
+            "babyTools": true,
+            "logout": true
+        },
+        "ja-JP": {
+            "resetPassword": true,
+            "registration": true,
+            "login": true,
+            "editProfile": true,
+            "product": true,
+            "babyTools": true,
+            "logout": true
+        },
+        "zh-Hant-TW": {
+            "resetPassword": true,
+            "registration": true,
+            "login": true,
+            "editProfile": true,
+            "product": true,
+            "babyTools": false,
+            "logout": true
+        },
+        "nl-BE": {
+            "resetPassword": true,
+            "registration": true,
+            "login": true,
+            "editProfile": true,
+            "product": true,
+            "babyTools": true,
+            "logout": true
+        },
+        "nl-NL": {
+            "resetPassword": true,
+            "registration": true,
+            "login": true,
+            "editProfile": true,
+            "product": true,
+            "babyTools": true,
+            "logout": true
+        },
+        "pl-PL": {
+            "resetPassword": true,
+            "registration": true,
+            "login": true,
+            "editProfile": true,
+            "product": true,
+            "babyTools": true,
+            "logout": true
+        },
+        "pt-BR": {
+            "resetPassword": true,
+            "registration": true,
+            "login": true,
+            "editProfile": true,
+            "product": true,
+            "babyTools": true,
+            "logout": true
+        },
+        "pt-PT": {
+            "resetPassword": true,
+            "registration": true,
+            "login": true,
+            "editProfile": true,
+            "product": true,
+            "babyTools": true,
+            "logout": true
+        },
+        "ro-RO": {
+            "resetPassword": true,
+            "registration": true,
+            "login": true,
+            "editProfile": true,
+            "product": true,
+            "babyTools": true,
+            "logout": true
+        },
+        "ru-RU": {
+            "resetPassword": true,
+            "registration": true,
+            "login": true,
+            "editProfile": true,
+            "product": true,
+            "babyTools": true
+        },
+        "sv-SE": {
+            "resetPassword": true,
+            "registration": true,
+            "login": true,
+            "editProfile": true,
+            "product": true,
+            "babyTools": true,
+            "logout": true
+        },
+        "tr-TR": {
+            "resetPassword": true,
+            "registration": true,
+            "login": true,
+            "editProfile": true,
+            "product": true,
+            "babyTools": true,
+            "logout": true
+        },
+        "uk-UA": {
+            "resetPassword": true,
+            "registration": true,
+            "login": true,
+            "editProfile": true,
+            "product": true,
+            "babyTools": true
+        }
+    },
+    "scale": {
+        "file": "crm/editProfile",
+        "generic": "(getCrmMarketsScope(crmProperties.editProfile))",
+        "elements": [
+            {
+                "static": "['ru-RU']",
+                "path": "pampers-ru-ru"
+            },
+            {
+                "static": "['pt-BR']",
+                "path": "pampers-pt-br"
+            },
+            {
+                "static": "['ja-JP']",
+                "path": "pampers-ja-jp"
+            },
+            {
+                "static": "['fr-FR']",
+                "path": "pampers-fr-fr"
+            },
+            {
+                "static": "['es-ES']",
+                "path": "pampers-es-es"
+            },
+            {
+                "static": "['en-US']",
+                "path": "pampers-en-us"
+            },
+            {
+                "static": "['en-GB']",
+                "path": "pampers-en-gb"
+            },
+            {
+                "static": "['en-CA']",
+                "path": "pampers-en-ca"
+            },
+            {
+                "static": "['de-DE']",
+                "path": "pampers-de-de"
+            },
+            {
+                "static": "['cs-CZ']",
+                "path": "pampers-cs-cz"
+            },
+            {
+                "static": "['fr-CA']",
+                "path": "pampers-fr-ca"
+            },
+            {
+                "static": "['es-CL']",
+                "path": "pampers-es-cl"
+            },
+            {
+                "static": "['es-MX']",
+                "path": "pampers-es-mx"
+            },
+            {
+                "static": "['el-GR']",
+                "path": "pampers-el-gr"
+            },
+            {
+                "static": "['he-IL']",
+                "path": "pampers-he-il"
+            },
+            {
+                "static": "['nl-NL']",
+                "path": "pampers-nl-nl"
+            },
+            {
+                "static": "['fr-BE']",
+                "path": "pampers-fr-be"
+            },
+            {
+                "static": "['nl-BE']",
+                "path": "pampers-nl-be"
+            },
+            {
+                "static": "['es-AR']",
+                "path": "pampers-es-ar"
+            },
+            {
+                "static": "['es-PE']",
+                "path": "pampers-es-pe"
+            },
+            {
+                "static": "['ro-RO']",
+                "path": "pampers-ro-ro"
+            },
+            {
+                "static": "['pl-PL']",
+                "path": "pampers-pl-pl"
+            },
+            {
+                "static": "['hu-HU']",
+                "path": "pampers-hu-hu"
+            },
+            {
+                "static": "['hr-HR']",
+                "path": "pampers-hr-hr"
+            },
+            {
+                "static": "['tr-TR']",
+                "path": "pampers-tr-tr"
+            },
+            {
+                "static": "['pt-PT']",
+                "path": "pampers-pt-pt"
+            },
+            {
+                "static": "['de-AT']",
+                "path": "pampers-de-at"
+            },
+            {
+                "static": "['sv-SE']",
+                "path": "pampers-sv-se"
+            },
+            {
+                "static": "['fi-FI']",
+                "path": "pampers-fi-fi"
+            },
+            {
+                "static": "['zh-Hant-TW']",
+                "path": "pampers-zh-hant-tw"
+            },
+            {
+                "static": "['es-US']",
+                "path": "pampers-es-us"
+            }
+        ]
+    }
+}

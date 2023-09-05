@@ -1,0 +1,143 @@
+{
+    "test": [
+        "en-US"
+    ],
+    "scope": {
+        "test": {
+            "baseUrl": "https://www.pampers.com/en-us/",
+            "data": {
+                "BNG": ["pregnancy/baby-names/article/top-baby-girl-names"],
+                "DDC": ["pregnancy/pregnancy-calendar/5-weeks-pregnant"]
+            }
+        },
+        "en-US": {
+            "baseUrl": " https://www.pampers.com/en-us/",
+            "data": {
+                "WGC": [
+                    "pregnancy/prenatal-health-and-wellness/article/pregnancy-diet"
+                ],
+                "DDC": [
+                    "pregnancy/pregnancy-symptoms/article/when-does-morning-sickness-start"
+                ],
+                "BNG": [
+                    "pregnancy/baby-names/article/most-popular-baby-names-of-2017"
+                ],
+                "CGP": [
+                    "pregnancy/pregnancy-announcement/article/ultimate-guide-for-planning-a-gender-reveal-party"
+                ]
+            }
+        },
+        "jp-JP": {
+            "baseUrl": "",
+            "data": {
+                "DDC": [
+                    "pregnancy/pregnancy-symptoms/article/pregnancy-symptoms-during-second-pregnancy",
+                    "pregnancy/pregnancy-symptoms/article/morning-sickness-when-does-it-start-and-how-to-prevent-it",
+                    "pregnancy/healthy-pregnancy/article/what-mom-and-dad-role-in-pregnancy-life",
+                    "pregnancy/healthy-pregnancy/article/obgyn-finding-a-good-obstetrician",
+                    "pregnancy/healthy-pregnancy/article/your-guide-to-all-the-pregnancy-hormones",
+                    "pregnancy/pregnancy-symptoms/article/morning-sickness",
+                    "pregnancy/pregnancy-calendar/first-trimester",
+                    "pregnancy/pregnancy-calendar/6-weeks-pregnant",
+                    "pregnancy/pregnancy-calendar/1-month-pregnant"                    
+                ],
+                "WGC": [
+                    "pregnancy/pregnancy-symptoms/article/frequent-urination-during-pregnancy",
+                    "pregnancy/healthy-pregnancy/article/flying-while-pregnant-and-other-travel-considerations",
+                    "pregnancy/pregnancy-symptoms/article/pregnancy-weight-gain-facts-and-advice",
+                    "pregnancy/pregnancy-symptoms/article/third-trimester-pregnancy-discomfort",
+                    "pregnancy/healthy-pregnancy/article/working-while-pregnant-maintaining-a-healthy-pregnancy",
+                    "pregnancy/multiples/article/twins-or-triplets-how-is-a-multiple-pregnancy-different",
+                    "pregnancy/pregnancy-symptoms/article/third-trimester-of-pregnancy-what-can-i-expect",
+                    "pregnancy/healthy-pregnancy/article/stresrelease-during-pregnancy",
+                    "pregnancy/healthy-pregnancy/article/stress-during-pregnancy-how-to-relieve-stress-during-pregnancy",
+                    "pregnancy/healthy-pregnancy/article/sleep-during-pregnancy",
+                    "pregnancy/pregnancy-symptoms/article/second-trimester-pregnancy-what-to-expect",
+                    "pregnancy/healthy-pregnancy/article/pregnancy-foodlife",
+                    "pregnancy/healthy-pregnancy/article/pregnancy-exercise",
+                    "pregnancy/healthy-pregnancy/article/pregnancy-diet-tips-plans-and-menus-for-a-healthy-diet",
+                    "pregnancy/healthy-pregnancy/article/pregnancy-diet-plan-eating-carbs",
+                    "pregnancy/healthy-pregnancy/article/pregnancy-diet-eating-for-two",
+                    "pregnancy/healthy-pregnancy/article/mothers-clas",
+                    "pregnancy/pregnancy-symptoms/article/mood-swings-during-pregnancy",
+                    "pregnancy/healthy-pregnancy/article/hla-premom-2",
+                    "pregnancy/healthy-pregnancy/article/foodlife-for-first-trimester-of-pregnancy",
+                    "pregnancy/healthy-pregnancy/article/expectant-fathers-weight-gain",
+                    "pregnancy/healthy-pregnancy/article/exercise-during-pregnancy-get-moving",
+                    "pregnancy/healthy-pregnancy/article/exercise-during-pregnancy",
+                    "pregnancy/pregnancy-symptoms/article/about-prenatal-checkup",
+                    "pregnancy/healthy-pregnancy/article/about-pregnancy-life",
+                    "pregnancy/pregnancy-symptoms/article/all-about-pregnancy-fatigue",
+                    "pregnancy/pregnancy-symptoms/article/back-pain-pregnancy",
+                    "pregnancy/pregnancy-symptoms/article/stretch-marks",
+                    "pregnancy/multiples/article/twin-pregnancy",
+                    "pregnancy/healthy-pregnancy/article/prenatal-yoga",
+                    "pregnancy/healthy-pregnancy/article/folic-acid-pregnancy",
+                    "pregnancy/pregnancy-symptoms/article/pregnancy-weight-gain",
+                    "pregnancy/healthy-pregnancy/article/pregnancy-diet",
+                    "pregnancy/pregnancy-symptoms/article/frequent-urination-pregnancy",
+                    "pregnancy/pregnancy-calendar/30-weeks-pregnant",
+                    "pregnancy/pregnancy-calendar/2-months-pregnant",
+                    "pregnancy/pregnancy-calendar/12-weeks-pregnant",
+                    "pregnancy/pregnancy-calendar/10-weeks-pregnant",
+                    "pregnancy/pregnancy-calendar/9-weeks-pregnant",
+                    "pregnancy/pregnancy-calendar/8-weeks-pregnant",
+                    "pregnancy/pregnancy-calendar/37-weeks-pregnant",
+                    "pregnancy/pregnancy-calendar/36-weeks-pregnant",
+                    "pregnancy/pregnancy-calendar/35-weeks-pregnant",
+                    "pregnancy/pregnancy-calendar/34-weeks-pregnant",
+                    "pregnancy/pregnancy-calendar/33-weeks-pregnant",
+                    "pregnancy/pregnancy-calendar/32-weeks-pregnant",
+                    "pregnancy/pregnancy-calendar/31-weeks-pregnant",
+                    "pregnancy/pregnancy-calendar/29-weeks-pregnant",
+                    "pregnancy/pregnancy-calendar/28-weeks-pregnant",
+                    "pregnancy/pregnancy-calendar/27-weeks-pregnant",
+                    "pregnancy/pregnancy-calendar/25-weeks-pregnant",
+                    "pregnancy/pregnancy-calendar/24-weeks-pregnant",
+                    "pregnancy/pregnancy-calendar/23-weeks-pregnant",
+                    "pregnancy/pregnancy-calendar/22-weeks-pregnant",
+                    "pregnancy/pregnancy-calendar/21-weeks-pregnant",
+                    "pregnancy/pregnancy-calendar/19-weeks-pregnant",
+                    "pregnancy/pregnancy-calendar/18-weeks-pregnant",
+                    "pregnancy/pregnancy-calendar/13-weeks-pregnant",
+                    "pregnancy/pregnancy-calendar/7-months-pregnant",
+                    "pregnancy/pregnancy-calendar/8-months-pregnant",
+                    "pregnancy/pregnancy-calendar/9-months-pregnant",
+                    "pregnancy/pregnancy-calendar/5-months-pregnant",
+                    "pregnancy/pregnancy-calendar/3-months-pregnant",
+                    "pregnancy/pregnancy-calendar/second-trimester",
+                    "pregnancy/pregnancy-calendar/6-months-pregnant",
+                    "pregnancy/pregnancy-calendar/4-months-pregnant",
+                    "pregnancy/pregnancy-calendar/26-weeks-pregnant",
+                    "pregnancy/pregnancy-calendar/16-weeks-pregnant",
+                    "pregnancy/pregnancy-calendar/15-weeks-pregnant",
+                    "pregnancy/pregnancy-calendar/20-weeks-pregnant",
+                    "pregnancy/pregnancy-calendar/14-weeks-pregnant",
+                    "pregnancy/pregnancy-calendar/17-weeks-pregnant",
+                    "pregnancy/pregnancy-calendar/11-weeks-pregnant",
+                    "pregnancy/pregnancy-calendar/third-trimester"
+                ]
+            }
+        },
+        "de-DE": {
+            "baseUrl": "",
+            "data": {
+                "DDC": [
+                    "schwangerschaft/anzeichen-einer-schwangerschaft/artikel/beschwerden-in-der-zweiten-schwangerschaft"         
+                ],
+                "WGC": [
+                    "schwangerschaft/schwangerschaftskalender/8wochen-schwanger"
+                ],
+                "BNG": [
+                    "schwangerschaft/babynamen/artikel/beliebtesten-vornamen-2017"
+                ]
+            }
+        }
+    },
+    "cssSelector": {
+        "WGC": "div[data-cy='weight-gain-calculator']",
+        "DDC": "div[data-cy='embedded-ddc']",
+        "BNG": "div[data-cy='bng-embeded-landing']",
+        "CGP": "div[data-cy='cgp-embeded-form']"
+    }
+}

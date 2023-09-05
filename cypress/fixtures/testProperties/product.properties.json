@@ -1,0 +1,875 @@
+{
+    "scope": ["fr-FR", "en-GB", "de-DE"],
+    "env": "prod",
+    "markets": {
+        "en-US": {
+            "url": "diapers-wipes",
+            "bsod": {
+                "Newborn": "diapers-wipes/newborn-products",
+                "Baby": "diapers-wipes/baby-products",
+                "Toddler": "diapers-wipes/toddler-products"
+            },
+            "diaperSizeCalculator": "8 lbs",
+            "comparativeTable": [
+                "Helps keep skin dry & healthy",
+                "Hypoallergenic, 0% Parabens, Latex"
+            ],
+            "BIN": {
+                "type": "priceSpider"
+            },
+            "detailPage": {
+                "path": {
+                    "oasis": "diapers-wipes/pampers-swaddlers-diapers",
+                    "pure": "diaper-wipes-pure/pampers-pure-protection-diapers"
+                },
+                "shopNow": "Shop now",
+                "embeddedTool": true
+            },
+            "loggedUser": true
+        },
+        "fr-FR": {
+            "url": "couches-et-lingettes",
+            "bsod": {
+                "Nouveau-né": "couches-et-lingettes/nouveau-nes",
+                "Bébé": "couches-et-lingettes/produits-bebes",
+                "Tout-petit": "couches-et-lingettes/produits-bambins"
+            },
+            "diaperSizeCalculator": "3 kg",
+            "comparativeTable": [
+                "Matières ultra douces"
+            ],
+            "BIN": {
+                "type": "priceSpider",
+                "banner": "Accepter les cookies"
+            },
+            "detailPage": {
+                "path": {
+                    "oasis": "couches-et-lingettes/pampers-baby-dry-couches",
+                    "pure": "couches-et-lingettes/pampers-harmonie-couches",
+                    "ninjamas": "couches-et-lingettes/pampers-ninjamas-pyjama-pants"
+                },
+                "shopNow": "Acheter maintenant",
+                "embeddedTool": true
+            },
+            "loggedUser": true
+        },
+        "de-DE": {
+            "url": "produkte",
+            "bsod": {
+                "Neugeborenes": "produkte/produkte-fur-neugeborene",
+                "Baby": "produkte/produkte-fur-babys",
+                "Kleinkind": "produkte/produkte-fur-kleinkinder"
+            },
+            "diaperSizeCalculator": "4 kg",
+            "comparativeTable": null,
+            "BIN": {
+                "type": "priceSpider",
+                "banner": "Akzeptieren"
+            },
+            "detailPage": {
+                "path": {
+                    "oasis": "produkte/pampers-premium-protection-windeln",
+                    "pure": "pure-kollektion/pampers-pure-protection-windeln",
+                    "ninjamas": "produkte/pampers-ninjamas-pyjama-pants"
+                },
+                "shopNow": "Jetzt kaufen",
+                "embeddedTool": true
+            },
+            "loggedUser": true
+        },
+        "ja-JP": {
+            "url": "products",
+            "bsod": {
+                "ねんね期": "products/newborn-products",
+                "おすわり/はいはい期": "products/baby-products",
+                "たっち/おむつはずれ期": "products/toddler-products"
+            },
+            "diaperSizeCalculator": null,
+            "comparativeTable": null,
+            "BIN": {
+                "type": "lite"
+            },
+            "detailPage": {
+                "path": {
+                    "oasis": "products/pampers-mainline-tape"
+                },
+                "shopNow": "ネットショップ",
+                "embeddedTool": false
+            },
+            "loggedUser": true
+        },
+        "en-GB": {
+            "url": "products",
+            "bsod": {
+                "Newborn": "products/newborn-products",
+                "Baby": "products/baby-products",
+                "Toddler": "products/toddler-products"
+            },
+            "diaperSizeCalculator": "3 kg",
+            "comparativeTable": [
+                "https://images.ctfassets.net/3shtzlb7cz90/5Uy3vDujte7QnFkjxpFerG/9b496acdbdf386584cff5984a85925ba/PROJ024724-P_G-Pampers-Standard-Packshot-3-324x286-v0.01.png?h=88&fm=webp&q=70",
+                "Helps keep skin dry & healthy"
+            ],
+            "BIN": {
+                "type": "priceSpider",
+                "banner": "Accept All Cookies"
+            },
+            "detailPage": {
+                "path": {
+                    "oasis": "products/pampers-baby-dry-pants",
+                    "pure": "products/pampers-harmonie-nappies",
+                    "ninjamas": "products/pampers-ninjamas-pyjama-pants"
+                },
+                "shopNow": "Shop NOW",
+                "embeddedTool": true
+            },
+            "loggedUser": true
+        },
+        "en-CA": {
+            "url": "diapers-wipes",
+            "bsod": {
+                "Newborn": "diapers-wipes/newborn-products",
+                "Baby": "diapers-wipes/baby-products",
+                "Toddler": "diapers-wipes/toddler-products"
+            },
+            "diaperSizeCalculator": "8 lbs",
+            "comparativeTable": [
+                "Helps keep skin dry & healthy"
+            ],
+            "BIN": {
+                "type": "priceSpider",
+                "banner": "I understand"
+            },
+            "detailPage": {
+                "path": {
+                    "oasis": "diapers-wipes/pampers-swaddlers-overnights",
+                    "pure": "diapers-wipes/pampers-aqua-pure-wipes"
+                },
+                "shopNow": "Shop NOW",
+                "embeddedTool": true,
+                "doNotVerify": ["reviewOverview", "ratingBar", "userReviewSection", "userReview", "writeReviewSection",
+                    "writeReviewCta", "writeReviewPopin"]
+            },
+            "loggedUser": true
+        },
+        "ar-SA": {
+            "url": "products",
+            "bsod": {
+                "طفل حديث الولادة": "products/newborn-products",
+                "طفل": "products/baby-products",
+                "طفل حديث المشي": "products/toddler-products"
+            },
+            "diaperSizeCalculator": null,
+            "comparativeTable": null,
+            "BIN": {
+                "type": "lite"
+            },
+            "detailPage": {
+                "path": {
+                    "oasis": "products/pampers-premium-care-for-newborns-diapers",
+                    "pure": "products/pampers-aqua-pure-wipes"
+                },
+                "shopNow": "لم نستطع إيجاد أي بائع",
+                "embeddedTool": false,
+                "doNotVerify": ["reviewOverview", "ratingBar", "userReviewSection", "userReview", "writeReviewSection",
+                    "writeReviewCta", "writeReviewPopin"]
+            },
+            "loggedUser": true
+        },
+        "en-IN": {
+            "url": "diapers-wipes",
+            "bsod": {
+                "Newborn": "diapers-wipes/newborn-baby-products",
+                "Baby": "diapers-wipes/baby-products",
+                "Toddler": "diapers-wipes/toddler-products"
+            },
+            "diaperSizeCalculator": "3.6 - 4.0  kgs",
+            "comparativeTable": [
+                "Helps keep skin dry & healthy"
+            ],
+            "BIN": {
+                "type": "lite"
+            },
+            "detailPage": {
+                "path": {
+                    "oasis": "diapers-wipes/pampers-premium-care-new-baby-diapers-for-newborns"
+                },
+                "shopNow": "Shop NOW",
+                "embeddedTool": false,
+                "doNotVerify": ["reviewOverview", "ratingBar", "userReviewSection", "userReview", "writeReviewSection",
+                    "writeReviewCta", "writeReviewPopin"]
+            },
+            "loggedUser": true
+        },
+        "en-AE": {
+            "url": "products",
+            "bsod": {
+                "Newborn": "products/newborn-products",
+                "Baby": "products/baby-products",
+                "Toddler": "products/toddler-products"
+            },
+            "diaperSizeCalculator": null,
+            "comparativeTable": null,
+            "BIN": {
+                "type": "lite"
+            },
+            "detailPage": {
+                "path": {
+                    "oasis": "products/new-baby-dry",
+                    "pure": "products/pampers-pure-protection-diapers"
+                },
+                "shopNow": "Shop Now",
+                "embeddedTool": false,
+                "doNotVerify": ["reviewOverview", "ratingBar", "userReviewSection", "userReview", "writeReviewSection",
+                    "writeReviewCta", "writeReviewPopin"]
+            },
+            "loggedUser": true
+        },
+        "pt-BR": {
+            "url": "produto",
+            "bsod": {
+                "Recém-nascido": "produto/produtos-para-recem-nascido",
+                "Bebê": "produto/produtos-para-o-bebe"
+            },
+            "diaperSizeCalculator": "3",
+            "comparativeTable": [
+                "Ajuste flexível"
+            ],
+            "BIN": {
+                "type": "priceSpider",
+                "banner": "Aceito todos os Cookies"
+            },
+            "detailPage": {
+                "path": {
+                    "oasis": "produto/pampers-pants-ajuste-total"
+                },
+                "shopNow": "Compre agora",
+                "embeddedTool": true
+            },
+            "loggedUser": true
+        },
+        "ru-RU": {
+            "url": "diapers-wipes",
+            "bsod": {
+                "Новорожденный": "diapers-wipes/newborn-products",
+                "Младенец": "diapers-wipes/baby-products",
+                "Малыш": "diapers-wipes/toddler-products"
+            },
+            "diaperSizeCalculator": "3 кг",
+            "comparativeTable": [
+                "https://images.ctfassets.net/3lly806zzuy3/10qUV6FiRINdWo314LfbKT/fddbd277163ab3de540f49e25ae7ed63/8006540185971.png?h=88",
+                "Надежно запирают и удерживают влагу"
+            ],
+            "BIN": {
+                "type": "priceSpider"
+            },
+            "detailPage": {
+                "path": {
+                    "oasis": "diapers-wipes/diapers-pampers-premium-care",
+                    "pure": "diapers-wipes/pampers-pure-protection-diapers"
+                },
+                "shopNow": "Купить",
+                "embeddedTool": true
+            },
+            "loggedUser": true
+        },
+        "es-ES": {
+            "url": "panales-toallitas",
+            "bsod": {
+                "Recién Nacido": "panales-toallitas/productos-para-recien-nacidos",
+                "Bebé": "panales-toallitas/productos-para-bebes",
+                "Niño": "panales-toallitas/productos-para-ninos-de-1-a-3-anos"
+            },
+            "diaperSizeCalculator": null,
+            "comparativeTable": null,
+            "BIN": {
+                "banner": "Aceptar todas las cookies",
+                "type": "priceSpider"
+            },
+            "detailPage": {
+                "path": {
+                    "oasis": "panales-toallitas/panales-dodot-sensitive",
+                    "pure": "panales-toallitas/toallitas-dodot-pure"
+                },
+                "shopNow": "Comprar ahora",
+                "embeddedTool": false
+            },
+            "loggedUser": true
+        },
+        "fr-CA": {
+            "url": "couches-lingettes",
+            "bsod": {
+                "Nouveau-né": "couches-lingettes/nouveau-ne",
+                "Bébé": "couches-lingettes/bebe",
+                "Tout-petit": "couches-lingettes/tout-petit"
+            },
+            "diaperSizeCalculator": "8 lbs",
+            "comparativeTable": [
+                "Aide à garder la peau sèche et en bonne santé"
+            ],
+            "BIN": {
+                "type": "lite"
+            },
+            "detailPage": {
+                "path": {
+                    "oasis": "star-product/lingettes-pampers-sensitive",
+                    "pure": "produit-normal/diapers-wipes-pure"
+                },
+                "shopNow": "Magasiner MAINTENANT",
+                "embeddedTool": false,
+                "doNotVerify": [ 
+                    "productStickyBIN", "reviewOverview", "ratingBar",
+                    "userReviewSection", "userReview"
+                ]
+            },
+            "loggedUser": true
+        },
+        "es-CL": {
+            "url": "productos",
+            "bsod": {
+                "Recién Nacido": "productos/productos-para-recién-nacidos",
+                "Guagua": "productos/productos-para-guagua"
+            },
+            "diaperSizeCalculator": "2.5",
+            "comparativeTable": [
+                "Exclusiva loción de protección"
+            ],
+            "BIN": {
+                "type": "lite"
+            },
+            "detailPage": {
+                "path": {
+                    "oasis": "productos/panales-pampers-premium-care",
+                    "pure": "productos/pampers-pure-protection"
+                },
+                "shopNow": "Comprar ahora",
+                "embeddedTool": false,
+                "doNotVerify": [
+                    "productStickyBIN"
+                ]
+            },
+            "loggedUser": true
+        },
+        "es-MX": {
+            "url": "productos",
+            "bsod": {
+                "Recién nacidos": "producto/productos-para-recien-nacidos",
+                "Bebé": "producto/productos-para-bebe"
+            },
+            "diaperSizeCalculator": "8 lbs",
+            "comparativeTable": [
+                "Ayuda a mantener la piel seca y saludable"
+            ],
+            "BIN": {
+                "type": "lite"
+            },
+            "detailPage": {
+                "path": {
+                    "oasis": "producto/pampers-swaddlers-overnights",
+                    "pure": "producto/pampers-pure-protection"
+                },
+                "shopNow": "Comprar ahora",
+                "embeddedTool": false,
+                "doNotVerify": [
+                    "productStickyBIN"
+                ]
+            },
+            "loggedUser": true
+        },
+        "el-GR": {
+            "url": "προϊόντα",
+            "bsod": {
+                "Νεογέννητο": "προϊόντα/νεογέννητο",
+                "Μωρό": "προϊόντα/μωρό",
+                "Νήπιο": "προϊόντα/νήπιο"
+            },
+            "diaperSizeCalculator": "3 kg",
+            "comparativeTable": ["Εξαιρετικά απαλά υλικά"],
+            "BIN": {
+                "banner": "Αποδοχή όλων",
+                "type": "lite"
+            },
+            "detailPage": {
+                "path": {
+                    "oasis": "προϊόν/pampers-pants",
+                    "pure": "δημοφιλές-προϊόν/pampers-aqua-pure"
+                },
+                "shopNow": "Αγοράστε ΤΩΡΑ",
+                "embeddedTool": true
+            },
+            "loggedUser": true
+        },
+        "he-IL": {
+            "url": "מוצרים",
+            "bsod": {
+                "תינוק שרק נולד": "מוצרים/מוצרים-לרך-הנולד",
+                "תינוק": "מוצרים/מוצרים-לתינוקות",
+                "פעוט": "מוצרים/מוצרים-לפעוטות"
+            },
+            "diaperSizeCalculator": "3.5 ק\"ג",
+            "comparativeTable": [
+                "חומרים רכים כנוצה",
+                "מכיל רכיבים ממקור צמחי"
+            ],
+            "BIN": {
+                "banner": "אישור כל העוגיות",
+                "type": "lite"
+            },
+            "detailPage": {
+                "path": {
+                    "oasis": "מוצרים/חיתולי-פמפרס-פרמיום",
+                    "pure": "מוצרים/חיתולי-פמפרס-הרמוני"
+                },
+                "shopNow": "לרכישה",
+                "embeddedTool": false,
+                "doNotVerify": [
+                    "reviewOverview", "ratingBar",
+                    "userReviewSection", "userReview"
+                ]
+            },
+            "loggedUser": true
+        },
+        "nl-NL": {
+            "url": "luiers-doekjes",
+            "bsod": {
+                "Pasgeboren baby": "luiers-doekjes/pasgeboren",
+                "Baby": "luiers-doekjes/baby",
+                "Peuter": "luiers-doekjes/peuter"
+            },
+            "diaperSizeCalculator": "3 kg",
+            "comparativeTable": null,
+            "BIN": {
+                "banner": "Alle cookies accepteren",
+                "type": "priceSpider"
+            },
+            "detailPage": {
+                "path": {
+                    "oasis": "luiers-doekjes/pampers-premium-protection",
+                    "pure": "luiers-doekjes/pampers-harmonie-luiers"
+                },
+                "shopNow": "Koop nu",
+                "embeddedTool": true
+            },
+            "loggedUser": true
+        },
+        "fr-BE": {
+            "url": "produits",
+            "bsod": null,
+            "diaperSizeCalculator": "3 kg",
+            "comparativeTable": ["Indicateur d’urine"],
+            "BIN": {
+                "type": "lite"
+            },
+            "detailPage": {
+                "path": {
+                    "oasis": "plusproduct/pampers-premium-protection"
+                },
+                "shopNow": "Acheter maintenant",
+                "embeddedTool": true,
+                "doNotVerify": [ "productStickyBIN" ]
+            },
+            "loggedUser": true
+        },
+        "nl-BE": {
+            "url": "luiers-doekjes",
+            "bsod": {
+                "Pasgeboren baby": "luiers-doekjes/pasgeboren",
+                "Baby": "luiers-doekjes/baby",
+                "Peuter": "luiers-doekjes/peuter"
+            },
+            "diaperSizeCalculator": "3 kg",
+            "comparativeTable": [ 
+                "Urine-Indicator", "Super zachte materialen"
+            ],
+            "BIN": {
+                "type": "lite"
+            },
+            "detailPage": {
+                "path": {
+                    "oasis": "luiers-doekjes/pampers-premium-protection-pants-luierbroekjes"
+                },
+                "shopNow": "Koop nu",
+                "embeddedTool": true,
+                "doNotVerify": [ "productStickyBIN" ]
+            },
+            "loggedUser": true
+        },
+        "es-AR": {
+            "url": "producto",
+            "bsod": {
+                "Recién nacido": "producto/productos-para-recien-nacidos",
+                "Bebé": "producto/productos-para-bebe"
+            },
+            "diaperSizeCalculator": "3",
+            "comparativeTable": [
+                "Ajuste flexível", "Respirable"
+            ],
+            "BIN": {
+                "type": "priceSpider"
+            },
+            "detailPage": {
+                "path": {
+                    "oasis": "producto/pampers-pants-ajuste-total"
+                },
+                "shopNow": "Compre Ahora",
+                "embeddedTool": true
+            },
+            "loggedUser": true
+        },
+        "es-PE": {
+            "url": "producto",
+            "bsod": {
+                "Recién nacidos": "producto/productos-para-recien-nacidos",
+                "Bebé": "producto/productos-para-bebe"
+            },
+            "diaperSizeCalculator": "3",
+            "comparativeTable": [
+                "Ajuste flexível", "Como algodón"
+            ],
+            "BIN": {
+                "type": "lite"
+            },
+            "detailPage": {
+                "path": {
+                    "oasis": "producto/pampers-confort-sec"
+                },
+                "shopNow": "Comprar ahora",
+                "embeddedTool": true,
+                "doNotVerify": [
+                    "reviewOverview", "ratingBar",
+                    "userReviewSection", "userReview"
+                ]
+            },
+            "loggedUser": true
+        },
+        "ro-RO": {
+            "url": "produse",
+            "bsod": {
+                "Nou-Născut": "produse/nou-nascut",
+                "Bebeluș": "produse/bebelus",
+                "Copil  Mic": "produse/copil-mic"
+            },
+            "diaperSizeCalculator": "3 kg",
+            "comparativeTable": [
+                "Materiale extrem de moi", "Indicator de umezeală"
+            ],
+            "BIN": {
+                "banner": "Acceptă toate cookie-urile",
+                "type": "lite"
+            },
+            "detailPage": {
+                "path": {
+                    "oasis": "produs-star/pampers-pants",
+                    "pure": "produs-obisnuit/servetele-pampers-aqua-pure"
+                },
+                "shopNow": "Cumpărați ACUM",
+                "embeddedTool": true,
+                "doNotVerify": [ "ratingBar" ]
+            },
+            "loggedUser": true
+        },
+        "pl-PL": {
+            "url": "pieluchy-i-chusteczki",
+            "bsod": {
+                "Niemowlę": "pieluchy-i-chusteczki/produkty-dla-niemowlat",
+                "Małe dziecko": "pieluchy-i-chusteczki/produkty-dla-malych-dzieci",
+                "Dziecko uczące się chodzić": "pieluchy-i-chusteczki/produkty-dla-dzieci-uczacych-sie-chodzic"
+            },
+            "diaperSizeCalculator": null,
+            "comparativeTable": null,
+            "BIN": {
+                "banner": "Zaakceptuj wszystkie pliki cookie",
+                "type": "priceSpider"
+            },
+            "detailPage": {
+                "path": {
+                    "oasis": "pieluchy-i-chusteczki/pampers-premium-care",
+                    "pure": "pieluchy-i-chusteczki/chusteczki-pampers-aqua-pure"
+                },
+                "shopNow": "Kup teraz",
+                "embeddedTool": false,
+                "doNotVerify": [
+                    "reviewOverview", "ratingBar",
+                    "productStickyBIN"
+                ]
+            },
+            "loggedUser": true
+        },
+        "hu-HU": {
+            "url": "termekek",
+            "bsod": {
+                "Újszülött": "termekek/ujszulott",
+                "Kisbaba": "termekek/kisbaba",
+                "Kisgyermek": "termekek/kisgyermek"
+            },
+            "diaperSizeCalculator": null,
+            "comparativeTable": null,
+            "BIN": {
+                "type": "lite",
+                "banner": "Az összes süti elfogadása"
+            },
+            "detailPage": {
+                "path": {
+                    "oasis": "normal-termek/pampers-baby-fresh-clean"
+                },
+                "shopNow": "Vásárolj most",
+                "embeddedTool": false,
+                "doNotVerify": [ "productStickyBIN", "userReview", "ratingBar" ]
+            },
+            "loggedUser": true
+        },
+        "hr-HR": {
+            "url": "proizvodi",
+            "bsod": {
+                "Novorođenče": "proizvodi/novorodence",
+                "Bebe": "proizvodi/beba",
+                "Jaslička dob": "proizvodi/jaslicka-dob"
+            },
+            "diaperSizeCalculator": null,
+            "comparativeTable": null,
+            "BIN": {
+                "type": "lite",
+                "banner": "Prihvati sve kolačiće"
+            },
+            "detailPage": {
+                "path": {
+                    "oasis": "istaknuti-proizvod/pelene-pampers-premium-care",
+                    "pure": "vlazne-maramice-pampers-aqua-pure"
+                },
+                "shopNow": "Kupite već SAD",
+                "embeddedTool": false,
+                "doNotVerify": [
+                    "reviewOverview", "ratingBar", "userReviewSection",
+                    "userReview", "productStickyBIN", "ratingBar"
+                ]
+            },
+            "loggedUser": true
+        },
+        "tr-TR": {
+            "url": "bebekbezleri-islakhavlular",
+            "bsod": {
+                "Yenidoğan": "bebekbezleri-islakhavlular/yenidogan",
+                "Bebek": "bebekbezleri-islakhavlular/bebek",
+                "Çocuk": "bebekbezleri-islakhavlular/cocuk"
+            },
+            "diaperSizeCalculator": null,
+            "comparativeTable": null,
+            "BIN": null,
+            "detailPage": {
+                "path": {
+                    "oasis": "bebekbezleri-islakhavlular/islak-havlu-prima-prima-hassas-ciltler-icin-islak-havlu"
+                },
+                "shopNow": null,
+                "embeddedTool": false,
+                "doNotVerify": ["productStickyBIN"]
+            },
+            "loggedUser": true
+        },
+        "en-PH": {
+            "url": "products",
+            "bsod": {
+                "Newborn": "products/newborn-products",
+                "Baby": "products/baby-products",
+                "Toddler": "products/toddler-products"
+            },
+            "diaperSizeCalculator": "8 lbs",
+            "comparativeTable": null,
+            "BIN": {
+                "type": "lite"
+            },
+            "detailPage": {
+                "path": {
+                    "oasis": "products/pampers-premium-care-pants"
+                },
+                "shopNow": "Shop NOW",
+                "embeddedTool": true,
+                "doNotVerify": ["reviewOverview", "ratingBar", "userReviewSection", "userReview", "writeReviewSection",
+                    "writeReviewCta", "writeReviewPopin"]
+            },
+            "loggedUser": true
+        },
+        "pt-PT": {
+            "url": "produtos",
+            "bsod": {
+                "Recém-nascido": "produtos/recem-nascido",
+                "Bebé": "produtos/bebe",
+                "Crianças": "produtos/crianca-pequena"
+            },
+            "diaperSizeCalculator": null,
+            "comparativeTable": null,
+            "BIN": {
+                "type": "lite",
+                "banner": "Aceitar todas as cookies"
+            },
+            "detailPage": {
+                "path": {
+                    "oasis": "mais-produto/splashers",
+                    "pure": "mais-produto/aqua-pure"
+                },
+                "shopNow": "Comprar já",
+                "embeddedTool": false,
+                "doNotVerify": [
+                    "reviewOverview", "ratingBar", "userReviewSection",
+                    "userReview", "productStickyBIN"
+                ]
+            },
+            "loggedUser": true
+        },
+        "de-AT": {
+            "url": "produkte",
+            "bsod": {
+                "Neugeborenes": "produkte/produkte-fur-neugeborene",
+                "Baby": "produkte/produkte-fur-babys",
+                "Kleinkind": "produkte/produkte-fur-kleinkinder"
+            },
+            "diaperSizeCalculator": null,
+            "comparativeTable": null,
+            "BIN": {
+                "type": "lite",
+                "banner": "Akzeptieren"
+            },
+            "detailPage": {
+                "path": {
+                    "oasis": "starprodukt/pampers-baby-dry",
+                    "pure": "regulares-produkt/pampers-aqua-pure"
+                },
+                "shopNow": "Jetzt kaufen",
+                "embeddedTool": false,
+                "doNotVerify": [
+                    "reviewOverview", "ratingBar", "userReviewSection",
+                    "userReview", "productStickyBIN"
+                ]
+            },
+            "loggedUser": true
+        },
+        "cs-CZ": {
+            "url": "produkty",
+            "bsod": {
+                "Novorozenec": "produkty/novorozenec",
+                "Kojenec": "produkty/kojenec",
+                "Batole": "produkty/batole"
+            },
+            "diaperSizeCalculator": null,
+            "comparativeTable": [
+                "Pomáhá udržovat pokožku suchou a zdravou", "Udržuje vlhkost od pokožky"
+            ],
+            "BIN": {
+                "type": "lite",
+                "banner": "Přijmout všechny soubory cookie"
+            },
+            "detailPage": {
+                "path": {
+                    "oasis": "produkt-s-hvezdickou/detske-plenkove-kalhotky-pampers-premium-care-pants",
+                    "pure": "bezny-produkt/pampers-aqua-pure-wipes"
+                },
+                "shopNow": "Kupujte nyní",
+                "embeddedTool": false,
+                "doNotVerify": [ "productStickyBIN" ]
+            },
+            "loggedUser": true
+        },
+        "sv-SE": {
+            "url": "blöjor-tvättservetter",
+            "bsod": {
+                "Nyfödd": "blöjor-tvättservetter/nyfödd",
+                "Bebis": "blöjor-tvättervetter/bebis",
+                "Småbarn": "blöjor-tvättervetter/småbarn"
+            },
+            "diaperSizeCalculator": "3 kg",
+            "comparativeTable": ["Tre absorberande kanaler", "Mjuka och elastiska sidor"],
+            "BIN": {
+                "type": "lite",
+                "banner": "Acceptera alla cookies"
+            },
+            "detailPage": {
+                "path": {
+                    "oasis": "blöjor-tvättservetter/pampers-premium-protection-pants",
+                    "pure": "blöjor-tvättservetter/pampers-aqua-pure-wipes"
+                },
+                "shopNow": "Köp nu",
+                "embeddedTool": true,
+                "doNotVerify": [
+                    "reviewOverview", "ratingBar", "userReviewSection", "userReview", "writeReviewSection",
+                    "writeReviewCta", "productStickyBIN", "writeReviewPopin"
+                ]
+            },
+            "loggedUser": true
+        },
+        "fi-FI": {
+            "url": "vaipat-puhdistuspyyhkeet",
+            "bsod": {
+                "Vastasyntynyt": "vaipat-puhdistuspyyhkeet/vastasyntynyt",
+                "Vauva": "vaipat-puhdistuspyyhkeet/vauna",
+                "Taapero": "vaipat-puhdistuspyyhkeet/taapero"
+            },
+            "diaperSizeCalculator": "3 kg",
+            "comparativeTable": ["3 imukykyistä kanavaa", "Joustavat sivusiivekkeet"],
+            "BIN": {
+                "type": "lite",
+                "banner": "Hyväksy kaikki evästeet"
+            },
+            "detailPage": {
+                "path": {
+                    "oasis": "vaipat-puhdistuspyyhkeet/pampers-premium-protection",
+                    "pure": "vaipat-puhdistuspyyhkeet/pampers-aqua-pure-wipes"
+                },
+                "shopNow": "Osta nyt",
+                "embeddedTool": false,
+                "doNotVerify": [
+                    "reviewOverview", "ratingBar", "userReviewSection", "userReview", "writeReviewSection",
+                    "writeReviewCta", "productStickyBIN", "writeReviewPopin"
+                ]
+            },
+            "loggedUser": true
+        },
+        "zh-Hant-TW": {
+            "url": "產品",
+            "bsod": {
+                "新生兒": "產品/寶寶",
+                "嬰兒": "產品/新生兒",
+                "學步時期": "產品/學步寶寶"
+            },
+            "diaperSizeCalculator": null,
+            "comparativeTable": null,
+            "BIN": {
+                "type": "lite"
+            },
+            "detailPage": {
+                "path": {
+                    "oasis": "一般產品/幫寶適一級幫拉拉褲"
+                },
+                "shopNow": "立即購買",
+                "embeddedTool": false,
+                "doNotVerify": [
+                    "reviewOverview", "ratingBar", "userReviewSection",
+                     "userReview", "productStickyBIN"
+                ]
+            },
+            "loggedUser": true
+        },
+        "es-US": {
+            "url": "panales-toallitas",
+            "bsod": {
+                "Recién nacido": "panales-toallitas/productos-para-recien-nacido",
+                "Bebé": "panales-toallitas/productos-para-bebe",
+                "Niño pequeño": "panales-toallitas/productos-para-nino-pequeno"
+            },
+            "diaperSizeCalculator": "8 lbs",
+            "comparativeTable": [
+                "Bloquea la humedad fuera de la piel", "Ayuda a mantener la piel seca y saludable"
+            ],
+            "BIN": {
+                "type": "lite"
+            },
+            "detailPage": {
+                "path": {
+                    "oasis": "panales-toallitas/panales-pampers-baby-dry"
+                },
+                "shopNow": "Comprar AHORA",
+                "embeddedTool": true,
+                "doNotVerify": [ "productStickyBIN" ]
+            },
+            "loggedUser": true
+        }
+    }
+}

@@ -1,0 +1,307 @@
+{
+    "newNav": {
+        "registrationNavigationMenu": ".nav-desktop__container button.event_profile_register"
+    },
+    "registration":{
+        "thankYouElement": ".thank-you__link span",
+        "registrationNavigationMenu": "button.item---link.text-login.event_profile_register",
+        "submitRegistrationFormBtn":".submit-button-container span",
+        "firstName":"input[name='firstName']",
+        "email":"input[name='emailAddress']",
+        "password":"input[name='newPassword']",
+        "areYouParent":"input[name='areYouParent'][value='yes']",
+        "reactCalendarIcon":"div[class='date-field-calendar-icon']",
+        "selectDateInReactCalendar":"//div[contains(@class,'react-datepicker__day--010')]",
+        "keepAlive":"input[name='keepAlive']",
+        "emailMarketing":"input[name='emailMarketing']",
+        "facebookConnectBtn":"div[class='facebook-connect'] > div > div > button",
+        "newFacebookConnectBtn": ".cta-facebook-connect",
+        "googleConnectBtn": ".cta-google-connect",
+        "appleConnectBtn": ".cta-apple-connect",
+        "lastName":"input[name='lastName']",
+        "similacCheckBox":"input[name='optSimilacSignup']",
+        "fisherPriceCheckBox":"input[name='fisherPriceSignup']",
+        "phoneNumber":"input[name='phone']",
+        "postalCode":"input[name='addressPostalCode']",
+        "globalOptText":".doubleOptin-checkbox-GlobalOptText > div .c-checkbox",
+        "streetAddress1":"input[name='addressStreet1']",
+        "streetAddress2":"input[name='addressStreet2']",
+        "city":"input[name='addressCity']",
+        "primaryAddressCountryListCRI":"select[name='primaryAddress_country']|Costa Rica",
+        "ukAddressCountry": "select[name='addressCountry']|IRL",
+        "traitDiaperListTW":"select[name='traitDiaperBrand']|滿意寶寶 MamyPoko 黏貼型尿褲",
+        "criAsPrimaryAddressCountry":"option[value='CRI']",
+        "displayName":"input[name='displayName']",
+        "pampersCaEnOtp":"input[name='globalOpt_optStatus_multivalue_132415414628496673']",
+        "pampersCaFrOtp":"input[name='globalOpt_optStatus_multivalue_132434398206392739']",
+        "pampersTrOtp1":"input[name='globalOpt_optStatus_multivalue_132422922076553103']",
+        "pampersTrOtp2":"input[name='GlobalOptoptStatusPersonalDataProcessing_multivalue_132422922076553103']",
+        "pampersRoTipsAndOffersTraits":"input[name='tipsandofferstraits_multivalue_132434297935189737']",
+        "pampersTwTraitRetailerPreference":"input[name='traitRetailerPreference']",
+        "pampersTwTraitDiaperBrandList":"select[name='traitDiaperBrand']",
+        "pampersTwTraitDiaperBrandValue":"option[data-option-target-id='34009662-a84d-429c-b13e-14cdee00f0c9']",
+        "pampersHkSelectName1List":"select[name='selectname1']",
+        "pampersHkSelectName1Value":"option[data-option-target-id='34009662-a84d-429c-b13e-14cdee00f0d4']",
+        "pampersHkAgreement":"input[name='agreement']",
+        "pampersHkTraitDiaperBrandList":"select[name='traitDiaperBrand']",
+        "pampersHkTraitDiaperBrandValue":"option[data-option-target-id='34009662-a84d-429c-b13e-14cdee00f0e5']",
+        "pampersHkSelectName3List":"select[name='select3']",
+        "pampersHkSelectName3Value":"option[data-option-target-id='34009662-a84d-429c-b13e-14cdee00f0f5']",
+        "pampersTwOpt": "[name='REG_OptText2']",
+        "gdpr": "input[name='areYouParent'][value='no']",
+        "regAreYouParentSection": ".areYouParent ",
+        "calDateFormat": "(//*[@class='date-input-inner-container']//input)[%ID%]",
+        "diaperSubbrandList": "select[name='traitDiaperSubbrand']|Pampers - Confort Sec",
+        "diaperBrandList": "select[name='traitDiaperBrand']|Pampers - Confort Sec",
+        "emailMarketingCheckBox": ".doubleOptin-checkbox-emailMarketing > div .c-checkbox"
+    },
+    "login":{
+        "loginTab": "a[title='Login']",
+        "email":"input[name='signInEmailAddress']",
+        "password":"input[name='currentPassword']",
+        "nav": "nav.nav",
+        "submitLoginFormBtn":"#login>div>button",
+        "errorMessageSection": "span[class='form-field-error-message form-field-global-error']"
+    },
+    "editProfile": {
+        "saveBtn": ".save-btn span",
+        "cancelBtn": ".sticky-cta__link button",
+        "ineligible": "div[class='inegibility__rich-text']",
+        "aboutYouSection": ".about-you-section h2",
+        "loginAndPasswordSection": ".login-password-section h2",
+        "childSection": ".your-baby-section h2",
+        "childCard": ".baby-profile-card",
+        "optinSection": ".newsletter-section h2",
+        "email": "input[name='emailAddress']",
+        "aboutYouYearField": ".about-you-section input[name='year']",
+        "aboutYouDayField": ".about-you-section input[name='day']",
+        "aboutYouMonthField": ".about-you-section input[name='month']",
+        "optStatus": ".c-checkbox input",
+        "successMessageContainer": "div[class='thank-you-container thank-you-position']",
+        "addChildBtn": "button[class='add-baby-btn']",
+        "newChildGender": ".add-child-form .radio-group input:nth-child(1)",
+        "newChildFirstName": ".add-child-form .input-container input",
+        "newChildCalendar": ".add-child-form .date-field-calendar-icon svg",
+        "removeNewChildBtn": "//li[@class='baby-profile-card'][contains(.,'%GENERICNAME%')]//button[contains(@class,'tn-remove')]",
+        "yourAddressSection": ".your-address-section h2",
+        "phoneNumber": ".your-address-section input[name='phone']",
+        "aboutYouCal": ".about-you-section .date-field-calendar-icon svg",
+        "aboutYouFirstname": ".firstName input",
+        "reactCalPrevious": ".react-datepicker__navigation--previous",
+        "reactCalTitleSection": ".react-datepicker__current-month",
+        "reactCalNext": ".react-datepicker__navigation--next",
+        "specificConfig": {
+            "pt-PT": {
+                "lastName": "input[name='displayName']"
+            }
+        }
+    },
+    "logout": {
+        "avatarSelector": "button.profile-cta",
+        "logoutBtnSelector": "button.event_profile_logout",
+        "avatarCommon": "button.event_profile_register",
+        "logOutbtnCommon": "button.logout-button"
+    },
+    "forgotPassword": {
+        "forgotYourPassword": "//a[contains(@class, 'forgot-your-Password')]",
+        "submitBtn": "div[class='submit-button-container'] button",
+        "thankYouContainer": "div[data-cy='thankyou']"
+    },
+    "properties":{
+        "email":"proxqa_%generic%@gmail.com",
+        "password":"Testing123+",
+        "firstName":"Alfred",
+        "lastName":"Neo",
+        "phoneNumber":"06541578963",
+        "postalCode":"A1A 2A2",
+        "streetAddress1":"St Andrew Street",
+        "streetAddress2":"St Andrew Street",
+        "city":"Oata",
+        "displayName":"McGreg",
+        "pampersTwTraitRetailerPreference":"Test Retailer",
+        "prodApiUrl": "https://mbprodmicroservice.azure-api.net/crm/api/crm"
+    },
+    "marketSpecification": {
+        "phoneNumber": {
+            "ru-RU": "79%genericNumber%|9",
+            "tr-TR": "065%genericNumber%|8",
+            "zh-Hant-TW": "05%genericNumber%|8"
+        },
+        "postalCode": {
+            "en-US": "87544",
+            "es-US": "80050",
+            "de-AT": "76547",
+            "en-CA": "A1A2A2",
+            "fr-CA": "A1A2A2",
+            "pt-PT": "4000-000",
+            "es-ES": "23456",
+            "sv-SE": "14324",
+            "fi-FI": "14324"
+        }
+    },
+    "actionConfig":{
+        "type":[
+            "firstName", "email", "password", "lastName", "phoneNumber", "postalCode", "streetAddress1", "streetAddress2",
+            "city", "displayName", "pampersTwTraitRetailerPreference"
+        ],
+        "click":[
+            "submitRegistrationFormBtn", "areYouParent", "reactCalendarIcon", "selectDateInReactCalendar", "keepAlive",
+            "similacCheckBox", "fisherPriceCheckBox", "globalOptText", "criAsPrimaryAddressCountry",
+            "pampersCaEnOtp", "pampersCaFrOtp", "pampersTrOtp1", "pampersTrOtp2", "pampersRoTipsAndOffersTraits", "pampersTwTraitDiaperBrandList",
+            "pampersTwTraitDiaperBrandValue", "pampersHkSelectName1List", "pampersHkSelectName1Value", "pampersHkAgreement", "pampersHkTraitDiaperBrandList",
+            "pampersHkTraitDiaperBrandValue", "pampersHkSelectName3List", "pampersHkSelectName3Value", "emailMarketing", "pampersTwOpt", "gdpr","emailMarketingCheckBox"
+        ],
+        "verifyIsPresent":["facebookConnectBtn", "newFacebookConnectBtn", "googleConnectBtn", "appleConnectBtn"],
+        "select": ["primaryAddressCountryListCRI", "traitDiaperListTW", "ukAddressCountry", "diaperSubbrandList", "diaperBrandList"]
+    },
+    "otherCrmPropertiess":{
+        "US-EN": {
+            "optid":"128_03",
+            "dteFormat": "MM/DD/YYYY"
+        },
+        "AR": {
+            "optid":"442_01",
+            "dteFormat": "DD/MM/YYYY"
+        },
+        "BR": {
+            "optid":"168_01",
+            "dteFormat": "MM/DD/YYYY"
+        },
+        "CA-EN": {
+            "optid": "142_01",
+            "dteFormat": "MM/DD/YYYY"
+        },
+        "CA-FR": {
+            "optid": "142_02",
+            "dteFormat": "MM/DD/YYYY"
+        },
+        "CL": {
+            "optid": "443_01",
+            "dteFormat": "DD/MM/YYYY"
+        },
+        "Pampers LATAM": {
+            "optid": "167_01",
+            "dteFormat": "MM/DD/YYYY"
+        },
+        "PE": {
+            "optid": "444_01",
+            "dteFormat": "MM/DD/YYYY"
+        },
+        "US-ES": {
+            "optid": "128_03",
+            "dteFormat": "MM/DD/YYYY"
+        },
+        "AT": {
+            "optid": "271_01",
+            "dteFormat": "DD/MM/YYYY"
+        },
+        "BE-FR": {
+            "optid": "277_02",
+            "dteFormat": "DD/MM/YYYY"
+        },
+        "BE-NL": {
+            "optid": "277_01",
+            "dteFormat": "DD/MM/YYYY"
+        },
+        "HR": {
+            "optid": "390_01",
+            "dteFormat": "DD/MM/YYYY"
+        },
+        "CZ": {
+            "optid": "388_01",
+            "dteFormat": "DD/MM/YYYY"
+        },
+        "FI": {
+            "optid": "285_01",
+            "dteFormat": "DD/MM/YYYY"
+        },
+        "FR": {
+            "optid": "265_02",
+            "dteFormat": "DD/MM/YYYY"
+        },
+        "DE": {
+            "optid": "269_04",
+            "dteFormat": "DD/MM/YYYY"
+        },
+        "GR": {
+            "optid": "267_01",
+            "dteFormat": "DD/MM/YYYY"
+        },
+        "HK": {
+            "optid": "45_01",
+            "dteFormat": "DD/MM/YYYY"
+        },
+        "HU": {
+            "optid": "365_01",
+            "dteFormat": "DD/MM/YYYY"
+        },
+        "IN": {
+            "optid": "47_01",
+            "dteFormat": "MM/DD/YYYY"
+        },
+        "IL": {
+            "optid": "392_01",
+            "dteFormat": "DD/MM/YYYY"
+        },
+        "JP": {
+            "optid": "43_02",
+            "dteFormat": "YYYY/MM/DD"
+        },
+        "NL": {
+            "optid": "275_01",
+            "dteFormat": "DD/MM/YYYY"
+        },
+        "PH": {
+            "optid": "44_01",
+            "dteFormat": "DD/MM/YYYY"
+        },
+        "PL": {
+            "optid": "303_01",
+            "dteFormat": "DD/MM/YYYY"
+        },
+        "RO": {
+            "optid": "382_01",
+            "dteFormat": "MM/DD/YYYY"
+        },
+        "RU": {
+            "optid": "304_01",
+            "dteFormat": "MM/DD/YYYY"
+        },
+        "SA-AR": {
+            "optid": "447_02",
+            "dteFormat": "DD/MM/YYYY"
+        },
+        "SE": {
+            "optid": "281_01",
+            "dteFormat": "DD/MM/YYYY"
+        },
+        "TW": {
+            "optid": "46_01",
+            "dteFormat": "DD/MM/YYYY"
+        },
+        "TR": {
+            "optid": "204_01",
+            "dteFormat": "DD/MM/YYYY"
+        },
+        "UA": {
+            "optid": "436_01",
+            "dteFormat": "DD/MM/YYYY"
+        },
+        "UK": {
+            "optid": "263_03",
+            "dteFormat": "DD/MM/YYYY"
+        },
+        "UAE": {
+            "optid": "362_01",
+            "dteFormat": "DD/MM/YYYY"
+        },
+        "ES": {
+            "optid": "310_01",
+            "dteFormat": "DD/MM/YYYY"
+        },
+        "PT": {
+            "optid": "311_01",
+            "dteFormat": "DD/MM/YYYY"
+        }
+    }
+}

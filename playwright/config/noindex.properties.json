@@ -1,0 +1,27 @@
+{
+   "scope": "*",
+   "defaultDatasource": "indexablePages",
+   "indexablePages": {
+      "isNoIndexShouldBePresent": false,
+      "market": {
+         "en-US": [
+            "https://www.pampers.com/en-us", "https://www.pampers.com/en-us/dfdsafe",
+            "https://www.pampers.com/en-us/r-babynamegeneratorvortex?use-vortex-scenario=true"
+         ],
+         "fr-FR": [
+            "https://www.pampers.fr", "https://www.pampers.fr/couches-et-lingettes"
+         ]
+      }
+   },
+   "nonIndexablePages": {
+      "isNoIndexShouldBePresent": true,
+      "market": {
+         "en-US": [
+            "https://www.pampers.com/en-us/r-babynamegeneratorvortex?use-vortex-scenario=true"
+         ],
+         "fr-FR": [
+            "https://www.pampers.fr"
+         ]
+      }
+   }
+}

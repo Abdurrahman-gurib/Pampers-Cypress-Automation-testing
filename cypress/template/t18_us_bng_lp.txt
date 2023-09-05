@@ -1,0 +1,37 @@
+/* USER Workflow  
+                Navigate to the BNG LP
+                Filter by Girl
+                Click on the Clear link
+                Verify no of names found
+                Filter by first letter 'A'
+                Verify no of names found
+                Select 1 theme
+                Verify no of names found
+                Select 2nd theme
+                Verify no of names found
+                Filter by Origin
+                Verify no of names found
+                Filter by length
+                Verify no of names found
+                Click on the "Find the one" button
+                Log in 
+                Click on the 'Load more names'
+                Verify no of names found
+                Click on Clear all link
+                Verify no of names found
+
+                Search for a baby name by 'Ame' > click search icon
+                Verify that 'Ame' is displayed in the search text box
+                Verify that system displays respective baby names + results found
+                Verify that 'Amelia' is displayed
+
+
+                Sorting & favorites & BNG Section
+                Verify the first baby name with no filters on
+                Verify first name as it is not sorted
+                Sort baby names by A-Z
+                Verify that Name is sorted
+                Click the star icon to add to favorites
+                Sticky message appears to acknowledge name has been added to favorites
+                Verify that how to use our BNG section is present
+            */

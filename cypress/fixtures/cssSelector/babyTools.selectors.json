@@ -1,0 +1,81 @@
+{
+    "common": {
+        "reactCalendar": "div[class='date-field-calendar-icon']",
+        "firstDayOfCurrentMonth": "(//div[contains(@class,'react-datepicker__day--001')])[1]"
+    },
+    "DDC": {
+        "myLastPeriod": "//button[contains(@data-action-detail,'lastdayperiod')]",
+        "dateConceived": "//button[contains(@data-action-detail,'dateconceived')]",
+        "reactCalendartLastPeriod": "div[class='form-my-last-period show'] div[class='date-field-calendar-icon']",
+        "cycleLengthPrevBtn": "#prev-num",
+        "ctaBtn": "div[class='ddct-btn'] button",
+        "resultContainer": ".ddcr-container",
+        "recalculate": ".ddcr-recalculate button"
+    },
+    "BNG": {
+        "tooltipCloseIcon": "#close-icon",
+        "genderFilterUnisex": "div[data-accordion-title='Gender'] div[data-filter-button='U']",
+        "genderFilterF": "div[data-accordion-title='Gender'] div[data-filter-button='F']",
+        "genderFilterM": "div[data-accordion-title='Gender'] div[data-filter-button='M']",
+        "clearGenderFilter": "div[data-accordion-title='Gender'] > div > .accordion-filter__clear-btn",
+        "themeFilterFlower": "div[data-filter-button='Flower']",
+        "themeFilter": "(//div[@data-accordion-title='Theme']//div[@data-cy='filter-button'])[1]",
+        "clearAllFilter": "div[class='bng-filter__clear'] > div > button",
+        "filterOrigin": "div[data-accordion-title='Origin']",
+        "originFilter": "(//div[@data-accordion-title='Origin']//div[@data-cy='filter-button'])[1]",
+        "ctaBtn": ".cta-button button",
+        "babyNameList": "div[data-cy='baby-name-list']",
+        "bngSearchBar": "input[name='baby-name-search']",
+        "searchIcon": "#search-icon",
+        "babyNameAva": "//p[text()='Ava']",
+        "addBabyName": "(//*[@class='item-star'])[1]",
+        "firstBN": "(//p[@class='item-text '])[1]",
+        "loadMoreBtn": "div[class=' btn-container'] button"
+    },
+    "CGP": {
+        "monAgeAtConception": "input[name='mom_age']",
+        "ctaBtn": ".cpg-c-btn button",
+        "resultContainer": "div[data-cy='cgp-result'] .gender-section"
+    },
+    "BGC": {
+        "genderFilterBoy": "#radio0",
+        "age": "input[name='month']",
+        "weight": "input[name='weight']",
+        "height": "input[name='height']",
+        "headCircumference": "input[name='headCircumference']",
+        "ctaBtn": ".bgc-btn button",
+        "chartContainer": "div[data-cy='chart']",
+        "chartWeight": "button[data-action-detail='growthtool_chart_weight']",
+        "chartHeight": "button[data-action-detail='growthtool_chart_height']",
+        "chartHead": "button[data-action-detail='growthtool_chart_head']",
+        "recalculate": ".tab-body .event_internal_link"
+    },
+    "WGC": {
+        "weight": "input[name='weight']",
+        "height": "input[name='height']",
+        "heightInches": "input[name='height_inches']",
+        "pregnancyWeek": "input[name='pregnancyweek']",
+        "ctaBtn": ".wgc-btn button",
+        "resultContainer": ".wgcr-container",
+        "wgTable": "div[data-cy='wgc-table']",
+        "recalculate": ".wgcr__recalculate a"
+    },
+    "BFF": {
+        "topBannerPicture": ".top-banner picture",
+        "topBannerTitle": ".top-banner__content-title",
+        "disclaimer": ".disclaimer p",
+        "bffIcon": ".article-oasis__media.icon",
+        "ctaBtn": ".bbf-btn button",
+        "resultSection": ".fun-fact__fact-group"
+    },
+    "pregnancyNotifier": {
+        "banner": ".top-banner__image",
+        "checklist": ".key-takeaway__checklist",
+        "steps": "[data-cy='how-to-get-rewarded']",
+        "cta-locked": ".calendar-selector-locked__vortex-cta",
+        "cta": ".calendar-selector-unlocked__cta",
+        "gmail": "img[alt='Google calendar']",
+        "apple": "img[alt='Phone calendar']",
+        "outlook": "img[alt='Outlook calendar']"
+    }
+}

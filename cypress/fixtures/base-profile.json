@@ -1,0 +1,97 @@
+{
+    "testsuite": {
+        "market": [
+            {
+                "name": "pampers-en-us",
+                "baseUrl": "https://www.pampers.com/en-us/",
+                "firstname": "Proximity JR Test",
+                "email": "proxqa",
+                "device": [
+                    "desktop"
+                ]
+            },
+            {
+                "name": "pampers-en-gb",
+                "baseUrl": "https://www.pampers.co.uk/",
+                "firstname": "Proximity JR Test",
+                "email": "proxqa",
+                "device": [
+                    "desktop"
+                ]
+            },
+            {
+                "name": "pampers-fr-fr",
+                "baseUrl": "https://www.pampers.fr/",
+                "firstname": "Proximity JR Test",
+                "email": "proxqa",
+                "device": [
+                    "desktop"
+                ]
+            },
+            {
+                "name": "pampers-de-de",
+                "baseUrl": "https://www.pampers.de/",
+                "firstname": "Proximity JR Test",
+                "email": "proxqa",
+                "device": [
+                    "desktop"
+                ]
+            },
+            {
+                "name": "pampers-ja-jp",
+                "baseUrl": "https://www.jp.pampers.com/",
+                "firstname": "Proximity JR Test",
+                "email": "proxqa",
+                "device": [
+                    "desktop"
+                ]
+            },
+            {
+                "name": "pampers-pt-br",
+                "baseUrl": "https://www.pampers.com.br/",
+                "firstname": "Proximity JR Test",
+                "email": "proxqa",
+                "device": [
+                    "desktop"
+                ]
+            },
+            {
+                "name": "pampers-ar-sa",
+                "baseUrl": "https://www.pampersarabia.com/ar-sa/",
+                "firstname": "Proximity JR Test",
+                "email": "proxqa",
+                "device": [
+                    "desktop"
+                ]
+            },
+            {
+                "name": "pampers-es-es",
+                "baseUrl": "https://www.dodot.es/",
+                "firstname": "Proximity JR Test",
+                "email": "proxqa",
+                "device": [
+                    "desktop"
+                ]
+            },
+            {
+                "name": "pampers-en-ca",
+                "baseUrl": "https://www.pampers.ca/en-ca/",
+                "firstname": "Proximity JR Test",
+                "email": "proxqa",
+                "postalcode": "A1A 2A2",
+                "device": [
+                    "desktop"
+                ]
+            },
+            {
+                "name": "pampers-en-ae",
+                "baseUrl": "https://www.pampers.ae/",
+                "firstname": "Proximity JR Test",
+                "email": "proxqa",
+                "device": [
+                    "desktop"
+                ]
+            }
+        ]
+    }
+}

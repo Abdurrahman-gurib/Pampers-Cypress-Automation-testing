@@ -1,0 +1,111 @@
+{
+    "scope": {
+        "VideoListCta": {
+            "url": "https://www.pampers.com/en-us/pregnancy/birthing-classes",
+            "action": [
+                ".scb-btn button"
+            ],
+            "postRegistrationSelector": ".testimonials-cta",
+            "staticLabel": [
+                "REG_PREGNANCY_OTHER_OTHER_ALL",
+                "ENG_PREGNANCY_OTHER_OTHER_ALL",
+                "ENG_PREGNANCY_OTHER_CTA_ALL"
+            ]
+        },
+        "Feedback": {
+            "url": "https://www.pampers.com/en-us/pregnancy/pregnancy-announcement/article/21-gender-reveal-ideas",
+            "action": [
+                ".feedback-btn-container.event_comment"
+            ],
+            "postRegistrationSelector": ".feedback-container ",
+            "staticLabel": [
+                "ENG_PREGNANCY_OTHER_OTHER_ALL",
+                "REG_PREGNANCY_OTHER_OTHER_ALL"
+            ]
+        },
+        "UserReviews": {
+            "url": "https://www.pampers.com/en-us/diaper-wipes-pure/pampers-pure-protection-diapers",
+            "action": [
+                "#reviews-write button"
+            ],
+            "postRegistrationSelector": ".modal-body.modal-body__comparative",
+            "staticLabel": [
+                "REG_PRODUCTS_OTHER_CTA_ALL",
+                "ENG_PRODUCTS_OTHER_CTA_ALL"
+            ]
+        },
+        "Article Like": {
+            "url": "https://www.pampers.com/en-us/pregnancy/giving-birth/article/stocking-up-on-baby-basics",
+            "action": [
+                ".feedback-count-container button"
+            ],
+            "postRegistrationSelector": ".feedback-count-container",
+            "staticLabel": [
+                "ENG_PREGNANCY_OTHER_OTHER_ALL",
+                "REG_PREGNANCY_OTHER_OTHER_ALL"
+            ]
+        },
+        "Guides and downloadables landing page": {
+            "url": "https://www.pampers.com/en-us/guides-and-downloadables",
+            "action": [
+                ".push__btn-wraper button"
+            ],
+            "postRegistrationSelector": ".push__btn-wraper",
+            "staticLabel": [
+                "REG_RESOURCES_OTHER_CTA_ALL",
+                "ENG_RESOURCES_OTHER_CTA_ALL"
+            ]
+        },
+        "Monthiversary landing page": {
+            "url": "https://www.pampers.com/en-us/baby/monthiversary-printables",
+            "action": [
+                ".push__btn-wraper button"
+            ],
+            "postRegistrationSelector": ".push__btn-wraper",
+            "staticLabel": [
+                "ENG_BABY_ARTICLE_CTA_ALL",
+                "REG_BABY_ARTICLE_CTA_ALL"
+            ]
+        },
+        "Baby Shower Game detail page": {
+            "url": "https://www.pampers.com/en-us/pregnancy/baby-shower/printable-baby-shower-games/he-said-she-said",
+            "action": [
+                ".c-rich-text__btn-wraper button"
+            ],
+            "postRegistrationSelector": ".c-rich-text__btn-wraper",
+            "staticLabel": [
+                "REG_PREGNANCY_OTHER_CTA_ALL"
+            ]
+        },
+        "Monthiversary detail page": {
+            "url": "https://www.pampers.com/en-us/baby/monthiversary-printables/llamas-theme",
+            "action": [
+                ".gc__cta-wrapper button"
+            ],
+            "postRegistrationSelector": ".gc__cta-wrapper",
+            "staticLabel": [
+                "ENG_BABY_ARTICLE_CTA_ALL",
+                "REG_BABY_ARTICLE_CTA_ALL"
+            ]
+        },
+        "Guides and downloadables detail page": {
+            "url": "https://www.pampers.com/en-us/guides-and-downloadables/birth-plan-guide",
+            "action": [
+                ".gc__cta-wrapper button"
+            ],
+            "postRegistrationSelector": ".gc__cta-wrapper",
+            "staticLabel": [
+                "ENG_RESOURCES_OTHER_CTA_ALL",
+                "REG_RESOURCES_OTHER_CTA_ALL"
+            ]
+        }
+    },
+    "common": {
+        "registrationSelector": "[data-cy='registration-form-component']",
+        "staticLabel": [
+            "REG_REG-PAGE_OTHER_OTHER_ALL",
+            "LOG_ALLSITE_OTHER_OTHER_ALL",
+            "ENG_REG-PAGE_OTHER_OTHER_ALL"
+        ]
+    }
+}

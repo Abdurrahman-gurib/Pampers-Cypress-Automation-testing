@@ -1,0 +1,21 @@
+{
+    "newNav":{
+        "navMenu": ".panel__header-search button"
+    },
+    "search": {
+        "navMenu": ".menu__option__search button",
+        "field": ".search-input-field",
+        "btn": ".search-input-form button.btn-submit",
+        "firstPopularSuggestion": "(//div[contains(@class,'popular-search-items')]//a)[1]",
+        "autoSuggestionSection": ".search-autocomplete--result"
+    },
+    "resultPage": {
+        "noResSection": ".search-landing-results__no-results-term",
+        "topSearchSection": ".search-landing-results__popular-items",
+        "genericResultSection": "//div[@data-cy='search-result-list'][contains(.,'%generic%')]",
+        "offersSection": "div[data-cy='search-reward']",
+        "firstResult": "(//a[contains(@class,'card-label')])[1]",
+        "promoBanner": ".promo-banner_container",
+        "resultFirstImgTag": "(//div[@data-cy='search-result-list']//picture//img)[1]"
+    }
+}

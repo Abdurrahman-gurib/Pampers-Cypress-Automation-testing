@@ -1,0 +1,8 @@
+echo "stop container and delete both container and image"
+docker stop cyprox && docker rm cyprox && docker image rm cyprox
+
+echo "build new image"
+docker build -t cyprox .
+
+echo "run container"
+docker run -d --name cyprox cyprox

@@ -1,0 +1,9 @@
+{
+    "scope": ["ja-JP"],
+    "env": "prod",
+    "exclude": {
+        "ja-JP": ["コードを入力"],
+        "en-US": ["Smart Sleep Coaching App"],
+        "es-ES": ["Contáctanos"]
+    }
+}

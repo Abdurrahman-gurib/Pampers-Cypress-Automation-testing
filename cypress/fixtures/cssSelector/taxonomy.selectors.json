@@ -1,0 +1,836 @@
+{
+    "test":[
+        "en-US"
+    ],
+    "scope":{
+        "de-DE": [
+
+        ],
+        "en-US":[
+            "country selector", "breadcrumb", "footer", "basic article", "affiliate article",
+            "flexible article", "milestone article", "navigation", "rewards faq", "Rewards - terms-conditions",
+            "Author", "rewards catalog", "rewards lp", "sitemap page", "quizzes", "ddc - Landing",
+            "ddc - Result", "bcg - landing", "bng - landing", "monthiversary - Landing", "bsg - landing",
+            "bsg - landing banner", "bsg - detail", "offers cards", "offers banner", "checklist",
+            "guides - Landing", "guides - Detail", "monthiversary - Detail", "product - Landing",
+            "product - Review banner", "product - Review", "category", "subcategory",
+            "subcategory banner", "pregnancy calendar", "development milestones", "home mobile shortcut carousel",
+            "Article - outbound link", "Article - internal link", "Category - Small Card", "Article - All sources links",
+            "Article - You might like this offer module", "Sub-Category", "Product Landing Page - Cross Sell",
+            "Category - Watch video CTA", "Sign up component - Development Milestones", "Sign up component on sub category",
+            "Sign up Component on Category", "Sign up component in Author LP", "Sign up component in Article",
+            "Sign up component on Offers LP", "Sign up component - Quizzes LP", "Like on article",
+            "Facebook icon on Article", "Sign up and get 30% ergobaby Banner on Article", "Sign Up in Header",
+            "Ergobaby in Gift icon", "Planning Checklist", "Hospital Bag Checklist", "Guides and Downloadable LP",
+            "Guides and Downloadable DP", "Monthiversary LP", "Monthiversary DP", "Embedded BNG on Milestone Article",
+            "Embedded DDC on Milestone article", "Landing WGC", "Embedded WGC on Milestone Article",
+            "Review on Product Page", "Birthing Classes - Register to watch CTA", "Sign up component on Birthing Classes"
+        ]
+    },
+    "scanOnlyForAutoMode": true,
+    "exportForExcel": true,
+    "features":{
+        "Sign up component - Development Milestones": {
+            "selector": ".signup-form-btn",
+            "urls": {
+                "en-US": "https://www.pampers.com/en-us/development-milestones"
+            }
+        },
+        "Sign up component on sub category": {
+            "selector": ".signup-form-btn",
+            "urls": {
+                "en-US": "https://www.pampers.com/en-us/pregnancy/pregnancy-symptoms"
+            }
+        },
+        "Sign up Component on Category": {
+            "selector": ".signup-form-btn",
+            "urls": {
+                "en-US": "https://www.pampers.com/en-us/pregnancy"
+            }
+        },
+        "Sign up component in Author LP": {
+            "selector": ".signup-form-btn",
+            "urls": {
+                "en-US": "https://www.pampers.com/en-us/about-us/authors/madeline-johnson"
+            }
+        },
+        "Sign up component in Article": {
+            "selector": ".signup-form-btn",
+            "urls": {
+                "en-US": "https://www.pampers.com/en-us/best-baby-products/infant-activity/best-pacifiers"
+            }
+        },
+        "Sign up component on Offers LP": {
+            "selector": ".signup-form-btn",
+            "urls": {
+                "en-US": "https://www.pampers.com/en-us/coupons-offers"
+            }
+        },
+        "Sign up component - Quizzes LP": {
+            "selector": ".signup-form-btn",
+            "urls": {
+                "en-US": "https://www.pampers.com/en-us/quizzes"
+            }
+        },
+        "Like on article": {
+            "selector": ".feedback-count-container",
+            "urls": {
+                "en-US": "https://www.pampers.com/en-us/best-baby-products/nursery/best-bassinets"
+            }
+        },
+        "Facebook icon on Article": {
+            "selector": "[data-cy='social-share']",
+            "urls": {
+                "en-US": "https://www.pampers.com/en-us/pregnancy/baby-shower/videos/how-to-make-a-princess-castle-diaper-cake"
+            }
+        },
+        "Sign up and get 30% ergobaby Banner on Article": {
+            "selector": "[data-cy='basic-banner']",
+            "urls": {
+                "en-US": "https://www.pampers.com/en-us/pregnancy/baby-shower/videos/gender-reveal-baby-shower"
+            }
+        },
+        "Sign Up in Header": {
+            "selector": ".menu__option__authenticate",
+            "urls": {
+                "en-US": "https://www.pampers.com/en-us"
+            }
+        },
+        "Ergobaby in Gift icon": {
+            "selector": ".offer-menu-list-option",
+            "urls": {
+                "en-US": "https://www.pampers.com/en-us"
+            }
+        },
+        "Planning Checklist": {
+            "selector": ".scb-btn",
+            "urls": {
+                "en-US": "https://www.pampers.com/en-us/pregnancy/baby-shower/planning-checklist"
+            }
+        },
+        "Hospital Bag Checklist": {
+            "selector": ".scb-btn",
+            "urls": {
+                "en-US": "https://www.pampers.com/en-us/pregnancy/hospital-bag-checklist-tool"
+            }
+        },
+        "Guides and Downloadable LP": {
+            "selector": "div[class='container']",
+            "urls": {
+                "en-US": "https://www.pampers.com/en-us/guides-and-downloadables"
+            }
+        },
+        "Guides and Downloadable DP": {
+            "selector": ".gc__cta-wrapper",
+            "urls": {
+                "en-US": "https://www.pampers.com/en-us/guides-and-downloadables/your-go-to-breastfeeding-guide"
+            }
+        },
+        "Monthiversary LP": {
+            "selector": ".push__btn-wraper",
+            "urls": {
+                "en-US": "https://www.pampers.com/en-us/baby/monthiversary-printables"
+            }
+        },
+        "Monthiversary DP": {
+            "selector": ".gc__cta-wrapper",
+            "urls": {
+                "en-US": "https://www.pampers.com/en-us/baby/monthiversary-printables/woodland-animals-theme"
+            }
+        },
+        "Embedded BNG on Milestone Article": {
+            "selector": ".btn-vortex-row",
+            "urls": {
+                "en-US": "https://www.pampers.com/en-us/pregnancy/pregnancy-calendar/34-weeks-pregnant"
+            }
+        },
+        "Embedded DDC on Flexible Article": {
+            "selector": ".eddc-btn",
+            "urls": {
+                "en-US": "https://www.pampers.com/en-us/pregnancy/prenatal-health-and-wellness/article/obgyn-finding-a-good-obstetrician"
+            }
+        },
+        "Embedded DDC on Milestone article": {
+            "selector": ".eddc-btn",
+            "urls": {
+                "en-US": "https://www.pampers.com/en-us/pregnancy/pregnancy-calendar/1-month-pregnant"
+            }
+        },
+        "Landing WGC": {
+            "selector": ".wgc-btn",
+            "urls": {
+                "en-US": "https://www.pampers.com/en-us/pregnancy/pregnancy-weight-gain-calculator"
+            }
+        },
+        "Embedded WGC on Milestone Article": {
+            "selector": ".wgc-btn",
+            "urls": {
+                "en-US": "https://www.pampers.com/en-us/pregnancy/pregnancy-calendar/23-weeks-pregnant"
+            }
+        },
+        "Review on Product Page": {
+            "selector": "#reviews-write",
+            "urls": {
+                "en-US": "https://www.pampers.com/en-us/diapers-wipes/pampers-fragrance-free-wipes#rating-section"
+            }
+        },
+        "Birthing Classes - Register to watch CTA": {
+            "selector": ".scb-btn",
+            "urls": {
+                "en-US": "https://www.pampers.com/en-us/pregnancy/birthing-classes"
+            }
+        },
+        "Sign up component on Birthing Classes": {
+            "selector": ".signup-form-btn",
+            "urls": {
+                "en-US": "https://www.pampers.com/en-us/pregnancy/birthing-classes"
+            }
+        },
+        "Category - Watch video CTA": {
+            "selector": ".hyperlinked-banner-cta",
+            "urls": {
+                "en-US": "https://www.pampers.com/en-us/best-baby-products"
+            }
+        },
+        "Product Landing Page - Cross Sell": {
+            "selector": "[data-cy='cross-sell-product']",
+            "urls": {
+                "en-US": "https://www.pampers.com/en-us/diaper-wipes-pure/pampers-aqua-pure-wipes"
+            }
+        },
+        "Sub-Category": {
+            "selector": ".container.component-container.h-banner",
+            "urls": {
+                "en-US": "https://www.pampers.com/en-us/baby/teething"
+            }
+        },
+        "Article - You might like this offer module": {
+            "selector": "[data-cy='rich-text']",
+            "urls": {
+                "en-US": "https://www.pampers.com/en-us/baby/sleep/article/baby-sleep-temperature"
+            }
+        },
+        "Article - All sources links": {
+            "selector": ".source-list",
+            "urls": {
+                "en-US": "https://www.pampers.com/en-us/pregnancy/baby-shower/article/when-to-start-baby-registry"
+            }
+        },
+        "Category - Small Card": {
+            "selector": ".rest-item",
+            "urls": {
+                "en-US": "https://www.pampers.com/en-us/about-us"
+            }
+        },
+        "Article - internal link": {
+            "selector": "[data-cy='rich-text']",
+            "urls": {
+                "en-US": "https://www.pampers.com/en-us/baby/development/article/well-baby-visits"
+            }
+        },
+        "Article - outbound link": {
+            "selector": "[data-cy='rich-text']",
+            "urls": {
+                "en-US": "https://www.pampers.com/en-us/best-baby-products/nursery/best-baby-night-light"
+            }
+        },
+        "home mobile shortcut carousel": {
+            "selector": "[data-cy='shortcut-carousel']",
+            "urls": {
+                "en-US": "https://www.pampers.com/en-us"
+            }
+        },
+        "Author": {
+            "selector": "div[class='container page-container']",
+            "urls": {
+                "en-US": "https://www.pampers.com/en-us/about-us/authors/madeline-johnson"
+            }
+        },
+        "rewards faq": {
+            "selector": "main[data-cy='rewards-faq'] > div[class='container']",
+            "urls": {
+                "en-US": "https://www.pampers.com/en-us/rewards/faq"
+            }
+        },
+        "rewards catalog": {
+            "selector": "div[class='container rc__page']",
+            "urls": {
+                "en-US": "https://www.pampers.com/en-us/rewards/catalog"
+            }
+        },
+        "rewards lp": {
+            "selector": "div[class='container page-container']",
+            "urls": {
+                "en-US": "https://www.pampers.com/en-us/rewards"
+            }
+        },
+        "offers banner": {
+            "selector": "div[class=' hyperlinked-container']",
+            "urls": {
+                "en-US": "https://www.pampers.com/en-us/coupons-offers"
+            }
+        },
+        "offers cards": {
+            "selector": "div[class='container offer-showcase-container ']",
+            "urls": {
+                "en-US": "https://www.pampers.com/en-us/coupons-offers"
+            }
+        },
+        "navigation":{
+            "selector": "nav[class='nav open']",
+            "urls": {
+                "en-US": "https://www.pampers.com"
+            }
+        },
+        "basic article":{
+            "selector": "div[data-cy='main-article']",
+            "urls": {
+                "en-US": "https://www.pampers.com/en-us/toddler/sleep/article/teaching-sleeping-habits-toddler-sleep-training"
+            }
+        },
+        "affiliate article":{
+            "selector": "div[data-cy='main-article']",
+            "urls": {
+                "en-US": "https://www.pampers.com/en-us/best-baby-products/nursery/baby-sleeping-sacks"
+            }
+        },
+        "flexible article":{
+            "selector": "div[data-cy='main-article']",
+            "urls": {
+                "en-US": "https://www.pampers.com/en-us//baby/development/article/when-do-babies-sit-up"
+            }
+        },
+        "milestone article":{
+            "selector": "div[data-cy='main-article']",
+            "urls": {
+                "en-US": "https://www.pampers.com/en-us/pregnancy/pregnancy-calendar/2-months-pregnant"
+            }
+        },
+        "footer":{
+            "selector":"div[class='footer']",
+            "urls":{
+                "en-US": "https://www.pampers.com/en-us/country-selector"
+            }
+        },
+        "breadcrumb":{
+            "selector": "ol[class='c-breadcrumb_list']",
+            "urls": {
+                "en-US":"https://www.pampers.com/en-us/about-us/authors/donna-duarte-ladd"
+            }
+        },
+        "country selector":{
+            "selector": "div[class='container countrySelector-container']",
+            "urls": {
+                "en-US": "https://www.pampers.com/en-us/country-selector"
+            }
+        },
+        "sitemap page": {
+            "selector": "div[class='container sitemap-container']",
+            "urls": {
+                "en-US": "https://www.pampers.com/en-us/sitemap"
+            }
+        },
+        "Rewards - terms-conditions": {
+            "selector": "div[class='content']",
+            "urls": {
+                "en-US": "https://www.pampers.com/en-us/rewards-terms-conditions"
+            }
+        },
+        "quizzes": {
+            "selector": "div[id='__next'] > div > div[class='container']",
+            "urls": {
+                "en-US" : "https://www.pampers.com/en-us/quizzes"
+            }
+        },
+        "ddc - Result": {
+            "selector": "div[class='container page-container']",
+            "urls": {
+                "en-US" : "https://www.pampers.com/en-us/pregnancy/due-date-calculator-result/0?dueDate=07/13/2022"
+            }
+        },
+        "ddc - Landing": {
+            "selector": "main[class='container page-container']",
+            "urls": {
+                "en-US" : "https://www.pampers.com/en-us/pregnancy/due-date-calculator"
+            }
+        },
+        "bcg - landing": {
+            "selector": "main[class='container page-container']",
+            "urls": {
+                "en-US": "https://www.pampers.com/en-us/baby/growth-chart-calculator"
+            }
+        },
+        "bng - landing": {
+            "selector": "main[class='container page-container']",
+            "urls": {
+                "en-US": "https://www.pampers.com/en-us/pregnancy/baby-names/find-your-baby-name"
+            }
+        },
+        "monthiversary - Landing": {
+            "selector": "div[class='container ']",
+            "urls": {
+                "en-US": "https://www.pampers.com/en-us/baby/monthiversary-printables"
+            }
+        },
+        "bsg - landing": {
+            "selector": "div[class='SubGroup__StyledWrapper-sc-blbz05-0 kNiOKJ sub-group ']",
+            "urls": {
+                "en-US": "https://www.pampers.com/en-us/pregnancy/baby-shower"
+            }
+        },
+        "bsg - landing banner": {
+            "selector": "div[class='hyperlinked-banner-content']",
+            "urls": {
+                "en-US": "https://www.pampers.com/en-us/pregnancy/baby-shower"
+            }
+        },
+        "checklist": {
+            "selector": "div[class='container page-container']",
+            "urls": {
+                "en-US": "https://www.pampers.com/en-us/pregnancy/baby-shower/registry-checklist"
+            }
+        },
+        "guides - Landing": {
+            "selector": "div[class='container ']",
+            "urls": {
+                "en-US": "https://www.pampers.com/en-us/guides-and-downloadables"
+            }
+        },
+        "guides - Detail": {
+            "selector": "div[data-cy='guide-carousel']",
+            "urls": {
+                "en-US": "https://www.pampers.com/en-us/guides-and-downloadables/birth-plan-guide"
+            }
+        },
+        "monthiversary - Detail": {
+            "selector": "div[class='GuideCarrousel__StyledWrapper-sc-12i1ifw-0 lmwQry guide-carousel page-carrousel ']",
+            "urls": {
+                "en-US": "https://www.pampers.com/en-us/baby/monthiversary-printables/koalas-theme"
+            }
+        },
+        "product - Landing": {
+            "selector": "main[class='container page-container']",
+            "urls": {
+                "en-US": "https://www.pampers.com/en-us/diapers-wipes"
+            }
+        },
+        "product - Review banner": {
+            "selector": "div[data-cy='product-detail-bin']",
+            "urls": {
+                "en-US": "https://www.pampers.com/en-us/diapers-wipes/pampers-easy-ups-trainers-for-boys-and-girls"
+            }
+        },
+        "product - Review": {
+            "selector": "div[id='to-main-content']",
+            "urls": {
+                "en-US": "https://www.pampers.com/en-us/diapers-wipes/pampers-easy-ups-trainers-for-boys-and-girls"
+            }
+        },
+        "category": {
+            "selector": "div > div[class='container']",
+            "urls": {
+                "en-US": "https://www.pampers.com/en-us/pregnancy"
+            }
+        },
+        "subcategory": {
+            "selector": "div[class='container h-padding']",
+            "urls": {
+                "en-US": "https://www.pampers.com/en-us/baby/parenting-life"
+            }
+        },
+        "subcategory banner": {
+            "selector": "div[class='col-12 d-flex justify-content-center']",
+            "urls": {
+                "en-US": "https://www.pampers.com/en-us/baby/parenting-life"
+            }
+        },
+        "bsg - detail": {
+            "selector": "div[data-cy='main-article']",
+            "urls": {
+                "en-US": "https://www.pampers.com/en-us/pregnancy/baby-shower/videos/baby-shower-themes-jungle"
+            }
+        },
+        "pregnancy calendar": {
+            "selector": "div[class='container page-container false']",
+            "urls": {
+                "en-US": "https://www.pampers.com/en-us/pregnancy/pregnancy-calendar"
+            }
+        },
+        "development milestones": {
+            "selector": "div[class='container page-container no-parent-page-container']",
+            "urls": {
+                "en-US": "https://www.pampers.com/en-us/development-milestones"
+            }
+        }
+    },
+    "staticLabel": {
+        "Sign up component on Birthing Classes": ["REG_PREGNANCY_OTHER_FOOTER_ALL"],
+        "Birthing Classes - Register to watch CTA": ["REG_PREGNANCY_OTHER_OTHER_ALL"],
+        "Review on Product Page": ["REG_PRODUCTS_OTHER_CTA_ALL"],
+        "Embedded WGC on Milestone Article": ["REG_PREGNANCY_TOOL_EMBEDDED_ALL"],
+        "Landing WGC": ["REG_PREGNANCY_TOOL_CTA_ALL"],
+        "Embedded DDC on Milestone article": ["REG_PREGNANCY_TOOL_CTA_ALL"],
+        "Embedded DDC on Flexible Article": ["ddc-register-to-find-out-now-cta"],
+        "Embedded BNG on Milestone Article": ["REG_PREGNANCY_TOOL_CTA_ALL"],
+        "Monthiversary DP": ["REG_BABY_ARTICLE_CTA_ALL"],
+        "Monthiversary LP": ["REG_BABY_ARTICLE_CTA_ALL"],
+        "Guides and Downloadable DP": ["REG_RESOURCES_OTHER_CTA_ALL"],
+        "Guides and Downloadable LP": ["REG_RESOURCES_OTHER_CTA_ALL"],
+        "Hospital Bag Checklist": ["REG_PREGNANCY_OTHER_CTA_ALL"],
+        "Planning Checklist": ["REG_PREGNANCY_OTHER_CTA_ALL"],
+        "Ergobaby in Gift icon": ["REG_ALLSITE_NAVBAR_TABLIST_MOBILE", "APP_ALLSITE_NAVBAR_TABLIST_MOBILE", "LUMI_ALLSITE_NAVBAR_TABLIST_MOBILE"],
+        "Sign Up in Header": ["REG_ALLSITE_NAVBAR_OTHER_ALL", "LOG_ALLSITE_NAVBAR_OTHER_ALL"],
+        "Sign up and get 30% ergobaby Banner on Article": ["REG_PREGNANCY_ARTICLE_BANNER_ALL"],
+        "Facebook icon on Article": ["REG_PREGNANCY_OTHER_OTHER_ALL"],
+        "Like on article": ["REG_BEST BABY PRODUCTS_OTHER_OTHER_ALL"],
+        "Sign up component - Quizzes LP": ["REG_RESOURCES_OTHER_CTA_ALL"],
+        "Sign up component on Offers LP": ["REG_OFFERS_OTHER_CTA_ALL"],
+        "Sign up component - Development Milestones": ["REG_PREGNANCY_ARTICLE_BANNER_ALL"],
+        "Sign up component on sub category": ["REG_PREGNANCY_OTHER_BANNER_ALL"],
+        "Sign up Component on Category": ["REG_PREGNANCY_OTHER_CTA_ALL"],
+        "Sign up component in Author LP": ["REG_ABOUT_OTHER_CTA_ALL"],
+        "Sign up component in Article": ["REG_SHOPBABYGEAR_ARTICLE_BANNER_ALL"],
+        "Category - Watch video CTA": ["LUMI_SHOPBABYGEAR_TOOL_HYPERLINK_ALL"],
+        "Product Landing Page - Cross Sell": [
+            "ENG_PRODUCTS_OTHER_PRODUCT",
+            "LUMI_PRODUCTS_OTHER_PRODUCT",
+            "BIN_PRODUCTS_OTHER_PRODUCT",
+            "LUMI_PRODUCTS_OTHER_HYPERLINK_ALL"
+        ],
+        "Sub-Category": ["LUMI_BABY_OTHER_BANNER_ALL"],
+        "Article - You might like this offer module": [
+            "LUMI_NEWBORN_ARTICLE",
+            "ENG_BABY_ARTICLE_HYPERLINK_ALL"
+        ],
+        "Article - All sources links": [
+            "ENG_PREGNANCY_ARTICLE_HYPERLINK_ALL",
+            "LUMI_PREGNANCY_ARTICLE_HYPERLINK_ALL"
+        ],
+        "Category - Small Card": [
+            "LUMI_ABOUT_OTHER_ARTICLE-PUSH_ALL",
+            "ENG_ABOUT_OTHER_ARTICLE-PUSH_ALL"
+        ],
+        "Article - internal link": [
+            "LUMI_BABY_ARTICLE_HYPERLINK_ALL",
+            "ENG_BABY_ARTICLE_HYPERLINK_ALL",
+            "ENG_BABY_ARTICLE_ARTICLE-PUSH_ALL"
+        ],
+        "Article - outbound link": [
+            "LUMI_SHOPBABYGEAR_ARTICLE_HYPERLINK_ALL",
+            "ENG_SHOPBABYGEAR_ARTICLE_HYPERLINK_ALL"
+        ],
+        "home mobile shortcut carousel": [
+            "ENG_HP_OTHER_OTHER_MOBILE",
+            "APP_HP_OTHER_OTHER_MOBILE",
+            "LUMI_HP_OTHER_OTHER_MOBILE"
+        ],
+        "pregnancy calendar": [
+            "ENG_PREGNANCY_OTHER_CTA_ALL",
+            "ENG_PREGNANCY_TOOL_BANNER",
+            "ENG_ALLSITE_OTHER_OTHER_ALL",
+            "REG_PREGNANCY_ARTICLE_BANNER_ALL"
+        ],
+        "development milestones": [
+            "ENG_ALLSITE_OTHER_OTHER_ALL",
+            "REG_PREGNANCY_ARTICLE_BANNER_ALL"
+        ],
+        "subcategory banner": [
+            "ENG_BABY_OTHER_HYPERLINK_ALL",
+            "ENG_BABY_OTHER_ARTICLE-PUSH_ALL",
+            "ENG_BABY_OTHER_BANNER_ALL",
+            "LUMI_BABY_OTHER_BANNER_ALL",
+            "ENG_BABY_OTHER_OTHER_ALL",
+            "BIN_BABY_OTHER_PRODUCT-PUSH_ALL",
+            "BIN_BABY_OTHER_PRODUCT-PUSH_ALL",
+            "REG_BABY_OTHER_BANNER_ALL",
+            "LUMI_BABY_OTHER_PRODUCT-PUSH_ALL",
+            "APP_BABY_OTHER_BANNER_ALL"
+        ],
+        "subcategory": [
+            "ENG_BABY_OTHER_HYPERLINK_ALL",
+            "ENG_BABY_OTHER_ARTICLE-PUSH_ALL",
+            "ENG_BABY_OTHER_BANNER_ALL",
+            "LUMI_BABY_OTHER_BANNER_ALL",
+            "ENG_BABY_OTHER_OTHER_ALL",
+            "BIN_BABY_OTHER_PRODUCT-PUSH_ALL",
+            "BIN_BABY_OTHER_PRODUCT-PUSH_ALL",
+            "REG_BABY_OTHER_BANNER_ALL",
+            "LUMI_BABY_OTHER_PRODUCT-PUSH_ALL",
+            "ENG_BABY_OTHER_CTA_ALL"
+        ],
+        "category":[
+            "ENG_PREGNANCY_OTHER_CTA_ALL",
+            "ENG_PREGNANCY_TOOL_BANNER_ALL",
+            "ENG_PREGNANCY_TOOL_HYPERLINK_ALL",
+            "LUMI_PREGNANCY_OTHER_CTA_ALL",
+            "BIN_PREGNANCY_OTHER_CTA_ALL",
+            "ENG_PREGNANCY_OTHER_EMBDDED_ALL",
+            "ENG_PREGNANCY_OTHER_OTHER_ALL",
+            "ENG_PREGNANCY_OTHER_ARTICLE-PUSH_ALL",
+            "ENG_PREGNANCY_OTHER_CTA_ALL",
+            "REG_PREGNANCY_OTHER_CTA_ALL"
+        ],
+        "product - Review banner": [
+            "BIN_PRODUCTS_OTHER_BANNER_ALL",
+            "ENG_PRODUCTS_OTHER_BANNER_ALL",
+            "ENG_PRODUCTS_OTHER_PRODUCT-PUSH_ALL"
+        ],
+        "product - Review": [
+            "APP_PRODUCTS_OTHER_BANNER_ALL",
+            "ENG_PRODUCTS_OTHER_BANNER_ALL",
+            "ENG_PRODUCTS_OTHER_CTA_ALL",
+            "ENG_PRODUCTS_OTHER_HYPERLINK_ALL",
+            "ENG_PRODUCTS_OTHER_OTHER_ALL",
+            "ENG_PRODUCTS_TOOL_CTA_ALL",
+            "BIN_PRODUCTS_OTHER_BANNER_ALL",
+            "BIN_PRODUCTS_OTHER_CTA_ALL",
+            "BIN_PRODUCTS_OTHER_PRODUCT-PUSH_ALL",
+            "ENG_PRODUCTS_TOOL_OTHER_ALL",
+            "ENG_PRODUCTS_OTHER_PRODUCT-PUSH_ALL"
+        ],
+        "product - Landing": [
+            "APP_PRODUCTS_OTHER_BANNER_MOBILE",
+            "ENG_PRODUCTS_OTHER_BANNER_MOBILE",
+            "ENG_PRODUCTS_TOOL_OTHER_ALL",
+            "BIN_PRODUCTS_OTHER_PRODUCT-PUSH_ALL",
+            "ENG_PRODUCTS_OTHER_OTHER_ALL",
+            "ENG_PRODUCTS_OTHER_HYPERLINK_ALL",
+            "ENG_PRODUCTS_OTHER_ARTICLE-PUSH_ALL",
+            "ENG_PRODUCTS_OTHER_PRODUCT-PUSH_ALL",
+            "ENG_ALLSITE_OTHER_OTHER_ALL",
+            "ENG_PRODUCTS_OTHER_CTA_ALL",
+            "LUMI_PRODUCTS_OTHER_PRODUCT-PUSH_ALL"
+        ],
+        "monthiversary - Detail": [
+            "ENG_BABY_TOOL_CTA_ALL",
+            "REG_PREGNANCY_ARTICLE_BANNER_ALL",
+            "ENG_BABY_ARTICLE_CTA_ALL",
+            "REG_BABY_ARTICLE_CTA_ALL",
+            "ENG_BABY_OTHER_OTHER_ALL"
+        ],
+        "guides - Detail": [
+            "ENG_RESOURCES_OTHER_CTA_ALL",
+            "REG_RESOURCES_OTHER_CTA_ALL",
+            "ENG_RESOURCES_OTHER_OTHER_ALL"
+        ],
+        "guides - Landing": [
+            "ENG_RESOURCES_OTHER_ARTICLE-PUSH_ALL",
+            "REG_RESOURCES_OTHER_CTA_ALL"
+        ],
+        "checklist": [
+            "ENG_PREGNANCY_OTHER_CTA_ALL",
+            "ENG_PREGNANCY_OTHER_OTHER_ALL",
+            "REG_PREGNANCY_OTHER_OTHER_ALL",
+            "ENG_PREGNANCY_OTHER_HYPERLINK_ALL",
+            "REG_PREGNANCY_OTHER_CTA_ALL",
+            "ENG_ALLSITE_OTHER_OTHER_ALL"
+        ],
+        "offers cards": [
+            "APP_ALL_BANNER_MAIN_OFFERS",
+            "APP_MOBILE_BANNER_MAIN_OFFERS",
+            "APP_OFFERS_OTHER_BANNER_ALL",
+            "APP_OFFERS_OTHER_CTA_ALL",
+            "ENG_OFFERS_OTHER_CTA_ALL",
+            "ENG_OFFERS_OTHER_CTA_MOBILE",
+            "ENG_OFFERS_OTHER_OTHER_ALL",
+            "ENG_OFFERS_TYP_OTHER_ALL",
+            "REG_OFFERS_OTHER_CTA_ALL",
+            "REG_OFFERS_OTHER_OTHER_ALL",
+            "ALL_ALL_BANNER_MAIN_OFFERS",
+            "LUMI_PRODUCTS_OTHER_OFFER-PUSH_ALL",
+            "APP_PRODUCTS_OTHER_OFFER-PUSH_ALL"
+        ],
+        "offers banner": [
+            "APP_ALL_BANNER_MAIN_OFFERS",
+            "APP_MOBILE_BANNER_MAIN_OFFERS",
+            "APP_OFFERS_OTHER_BANNER_ALL",
+            "APP_OFFERS_OTHER_CTA_ALL",
+            "ENG_OFFERS_OTHER_CTA_ALL",
+            "ENG_OFFERS_OTHER_CTA_MOBILE",
+            "ENG_OFFERS_OTHER_OTHER_ALL",
+            "ENG_OFFERS_TYP_OTHER_ALL",
+            "REG_OFFERS_OTHER_CTA_ALL",
+            "REG_OFFERS_OTHER_OTHER_ALL",
+            "ALL_ALL_BANNER_MAIN_OFFERS"
+        ],
+        "bsg - detail": [
+            "ENG_PREGNANCY_OTHER_OTHER_ALL",
+            "APP_PREGNANCY_OTHER_BANNER_ALL",
+            "ENG_PREGNANCY_ARTICLE_CTA_ALL",
+            "REG_PREGNANCY_ARTICLE_CTA_ALL",
+            "ENG_PREGNANCY_OTHER_ARTICLE-PUSH_ALL",
+            "ENG_PREGNANCY_OTHER_CTA_ALL",
+            "ENG_PREGNANCY_OTHER_BANNER_ALL",
+            "ENG_PREGNANCY_ARTICLE_HYPERLINK_ALL",
+            "ENG_PREGNANCY_ARTICLE_OTHER_ALL",
+            "REG_PREGNANCY_ARTICLE_BANNER_ALL"
+
+        ],
+        "bsg - landing banner": [
+            "APP_PREGNANCY_OTHER_BANNER_ALL",
+            "ENG_PREGNANCY_ARTICLE_CTA_ALL",
+            "REG_PREGNANCY_ARTICLE_CTA_ALL",
+            "ENG_PREGNANCY_OTHER_ARTICLE-PUSH_ALL",
+            "ENG_PREGNANCY_OTHER_CTA_ALL",
+            "ENG_PREGNANCY_OTHER_BANNER_ALL",
+            "ENG_PREGNANCY_ARTICLE_OTHER_ALL",
+            "ENG_PREGNANCY_ARTICLE_HYPERLINK_ALL",
+            "ENG_PREGNANCY_TOOL_OTHER_ALL",
+            "REG_PREGNANCY_TOOL_CTA_ALL",
+            "ENG_PREGNANCY_TOOL_HYPERLINK_ALL",
+            "ENG_PREGNANCY_OTHER_OTHER_ALL"
+        ],
+        "bsg - landing": [
+            "APP_PREGNANCY_OTHER_BANNER_ALL",
+            "ENG_PREGNANCY_ARTICLE_CTA_ALL",
+            "REG_PREGNANCY_ARTICLE_CTA_ALL",
+            "ENG_PREGNANCY_OTHER_ARTICLE-PUSH_ALL",
+            "ENG_PREGNANCY_OTHER_CTA_ALL",
+            "ENG_PREGNANCY_OTHER_BANNER_ALL"
+        ],
+        "monthiversary - Landing": [
+            "REG_BABY_ARTICLE_CTA_ALL",
+            "ENG_BABY_ARTICLE_CTA_ALL"
+        ],
+        "bng - landing": [
+            "ENG_PREGNANCY_TOOL_CTA_ALL",
+            "ENG_PREGNANCY_TOOL_CTA_MOBILE",
+            "ENG_PREGNANCY_TOOL_OTHER_MOBILE",
+            "ENG_PREGNANCY_TOOL_OTHER_ALL",
+            "ENG_ALLSITE_OTHER_OTHER_ALL",
+            "REG_PREGNANCY_TOOL_CTA_ALL"
+        ],
+        "bcg - landing": [
+            "ENG_BABY_TOOL_CTA_ALL",
+            "ENG_BABY_TOOL_OTHER_ALL",
+            "REG_BABY_TOOL_CTA_ALL",
+            "ENG_ALLSITE_OTHER_OTHER_ALL"
+        ],
+        "ddc - Landing": [
+            "ENG_PREGNANCY_TOOL_OTHER_ALL",
+            "ENG_PREGNANCY_TOOL_HYPERLINK_ALL",
+            "ENG_ALLSITE_OTHER_OTHER_ALL"
+        ],
+        "ddc - Result": [
+            "ENG_PREGNANCY_TOOL_OTHER_ALL",
+            "ENG_PREGNANCY_TOOL_HYPERLINK_ALL",
+            "REG_PREGNANCY_TOOL_EMBDDED_ALL",
+            "ENG_PREGNANCY_TOOL_ARTICLE-PUSH_ALL",
+            "REG_PREGNANCY_TOOL_BANNER_ALL",
+            "ENG_ALLSITE_OTHER_OTHER_ALL",
+            "REG_PREGNANCY_TOOL_EMBEDDED_ALL"
+        ],
+        "quizzes": [
+            "REG_RESOURCES_QUIZ_OTHER_ALL"
+        ],
+        "Rewards - terms-conditions": [
+            "ENG_APP-PAGES_OTHER_HYPERLINK_ALL"
+        ],
+        "sitemap page": [
+            "ENG_ALLSITE_OTHER_HYPERLINK_ALL",
+            "LUMI_ALLSITE_OTHER_HYPERLINK_ALL",
+            "REG_ALLSITE_OTHER_HYPERLINK_ALL"
+        ],
+        "Author": [
+            "ENG_ABOUT_OTHER_OTHER_ALL",
+            "ENG_ABOUT_OTHER_HYPERLINK_ALL",
+            "ENG_ABOUT_OTHER_CTA_ALL",
+            "ENG_ABOUT_ARTICLE_OTHER_ALL"
+        ],
+        "country selector" : [
+            "ENG_ALLSITE_OTHER_HYPERLINK_ALL"
+        ],
+        "breadcrumb": [
+            "ENG_ALLSITE_OTHER_OTHER_ALL_breadcrumb"
+        ],
+        "footer": [
+            "ENG_ALLSITE_FOOTER_OTHER_ALL"
+        ],
+        "basic article": [
+            "ENG_TODDLER_ARTICLE_HYPERLINK_ALL",
+            "APP_TODDLER_ARTICLE_HYPERLINK_ALL",
+            "REG_TODDLER_ARTICLE_BANNER_ALL",
+            "LUMI_TODDLER_ARTICLE_BANNER_ALL",
+            "ENG_TODDLER_ARTICLE_ARTICLE-PUSH_ALL",
+            "ENG_TODDLER_ARTICLE_OTHER_ALL",
+            "APP_TODDLER_ARTICLE_BANNER_ALL",
+            "ENG_TODDLER_ARTICLE_CTA_ALL",
+            "APP_TODDLER_OTHER_CTA_Mobile",
+            "ENG_TODDLER_OTHER_OTHER_ALL"
+        ],
+        "affiliate article": [
+            "ENG_SHOPBABYGEAR_ARTICLE_HYPERLINK_ALL",
+            "APP_SHOPBABYGEAR_ARTICLE_HYPERLINK_ALL",
+            "ENG_SHOPBABYGEAR_ARTICLE_OTHER_ALL",
+            "REG_SHOPBABYGEAR_ARTICLE_BANNER_ALL",
+            "LUMI_SHOPBABYGEAR_ARTICLE_BANNER_ALL",
+            "ENG_SHOPBABYGEAR_ARTICLE_ARTICLE-PUSH_ALL",
+            "APP_SHOPBABYGEAR_ARTICLE_BANNER_ALL",
+            "ENG_SHOPBABYGEAR_ARTICLE_CTA_ALL",
+            "APP_SHOPBABYGEAR_OTHER_CTA_MOBILE",
+            "ENG_BEST BABY PRODUCTS_OTHER_OTHER_ALL"
+        ],
+        "flexible article": [
+            "ENG_BABY_ARTICLE_HYPERLINK_ALL",
+            "APP_BABY_ARTICLE_HYPERLINK_ALL",
+            "ENG_BABY_ARTICLE_OTHER_ALL",
+            "REG_BABY_ARTICLE_BANNER_ALL",
+            "LUMI_BABY_ARTICLE_BANNER_ALL",
+            "ENG_BABY_ARTICLE_ARTICLE-PUSH_ALL",
+            "APP_BABY_ARTICLE_BANNER_ALL",
+            "ENG_BABY_ARTICLE_CTA_ALL",
+            "APP_BABY_OTHER_CTA_Mobile",
+            "ENG_BABY_OTHER_OTHER_ALL"
+        ],
+        "milestone article": [
+            "ENG_PREGNANCY_ARTICLE_HYPERLINK_ALL",
+            "ENG_PREGNANCY_ARTICLE_OTHER_ALL",
+            "REG_PREGNANCY_ARTICLE_BANNER_ALL",
+            "LUMI_PREGNANCY_ARTICLE_BANNER_ALL",
+            "ENG_PREGNANCY_ARTICLE_BANNER_ALL",
+            "ENG_PREGNANCY_ARTICLE_ARTICLE-PUSH_ALL",
+            "APP_PREGNANCY_ARTICLE_BANNER_ALL",
+            "APP_PREGNANCY_OTHER_CTA_Mobile",
+            "ENG_PREGNANCY_TOOL_OTHER_ALL",
+            "REG_PREGNANCY_TOOL_CTA_ALL",
+            "ENG_PREGNANCY_TOOL_HYPERLINK_ALL",
+            "ENG_PREGNANCY_OTHER_OTHER_ALL",
+            "ENG_PREGNANCY_ARTICLE_CTA_ALL"
+        ],
+        "navigation": [
+            "ENG_ALLSITE_NAVBAR_OTHER_ALL",
+            "APP_ALLSITE_NAVBAR_OTHER_MOBILE",
+            "APP_ALLSITE_NAVBAR_OTHER_MOBILE_header",
+            "REG_ALLSITE_NAVBAR_OTHER_MOBILE",
+            "APP_ALLSITE_NAVBAR_OTHER_ALL",
+            "APP_ALLSITE_NAVBAR_OTHER_MOBILE_ALL",
+            "APP_ALLSITE_NAVBAR_TABLIST_MOBILE_ALL",
+            "ENG_ALLSITE_NAVBAR_OTHER_MOBILE",
+            "LOG_ALLSITE_NAVBAR_OTHER_ALL",
+            "LOG_ALLSITE_NAVBAR_OTHER_DESKTOP",
+            "LOG_ALLSITE_NAVBAR_OTHER_MOBILE",
+            "REG_ALLSITE_NAVBAR_TABLIST_MOBILE",
+            "APP_ALLSITE_NAVBAR_TABLIST_MOBILE",
+            "LUMI_ALLSITE_NAVBAR_TABLIST_MOBILE",
+            "LUMI_ALLSITE_OTHER_HYPERLINK_ALL"
+        ],
+        "rewards faq": [
+            "APP_APP-PAGES_OTHER_BANNER_ALL",
+            "ENG_APP-PAGES_OTHER_OTHER_ALL"
+        ],
+        "rewards catalog":[
+            "APP_APP-PAGES_OTHER_BANNER_ALL",
+            "APP_APP-PAGES_OTHER_CTA_ALL",
+            "ENG_APP-PAGES_OTHER_CTA_ALL",
+            "ENG_ALLSITE_OTHER_OTHER_ALL",
+            "ENG_APP-PAGES_OTHER_CTA"
+        ],
+        "rewards lp":[
+            "APP_APP-PAGES_OTHER_BANNER_ALL",
+            "APP_OFFERS_OTHER_CTA_ALL",
+            "APP_APP-PAGES_OTHER_CTA_ALL",
+            "ENG_APP-PAGES_OTHER_CTA_ALL",
+            "ENG_ALLSITE_OTHER_OTHER_ALL"
+        ]
+    }
+}

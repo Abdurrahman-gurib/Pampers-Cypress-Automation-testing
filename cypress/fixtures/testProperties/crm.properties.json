@@ -1,0 +1,687 @@
+{
+    "env": "prod",
+    "login": {
+        "scope": "*",
+        "properties": {
+            "en-US": {
+                "localizedPath": "login",
+                "login": "jean.max-01@gmail.com",
+                "password": "Testing123"
+            },
+            "fr-FR": {
+                "localizedPath": "connexion",
+                "login": "pampersqa@gmail.com",
+                "password": "Testing123"
+            },
+            "de-DE": {
+                "localizedPath": "anmeldung",
+                "login": "pampersqa@gmail.com",
+                "password": "Testing123"
+            },
+            "fr-BE": {
+                "localizedPath": "connexion",
+                "login": "pampersqa@gmail.com",
+                "password": "Testing123"
+            },
+            "nl-BE": {
+                "localizedPath": "inloggen",
+                "login": "pampersqa@gmail.com",
+                "password": "Testing123"
+            },
+            "en-GB": {
+                "localizedPath": "login",
+                "login": "pampersqa@gmail.com",
+                "password": "Testing123"
+            },
+            "ru-RU": {
+                "localizedPath": "login",
+                "login": "pampersqa@gmail.com",
+                "password": "Testing123"
+            },
+            "nl-NL": {
+                "localizedPath": "inloggen",
+                "login": "pampersqa@gmail.com",
+                "password": "Testing123"
+            },
+            "pl-PL": {
+                "localizedPath": "logowanie",
+                "login": "pampersqa@gmail.com",
+                "password": "Testing123"
+            },
+            "hu-HU": {
+                "localizedPath": "bejelentkezes",
+                "login": "pampersqa@gmail.com",
+                "password": "Testing123"
+            },
+            "uk-UA": {
+                "localizedPath": "login",
+                "login": "pampersqa@gmail.com",
+                "password": "Testing123"
+            },
+            "hr-HR": {
+                "localizedPath": "prijava",
+                "login": "pampersqa@gmail.com",
+                "password": "Testing123"
+            },
+            "es-ES": {
+                "localizedPath": "iniciar-sesion",
+                "login": "pampersqa@gmail.com",
+                "password": "Testing123"
+            },
+            "he-IL": {
+                "localizedPath": "כניסה-למערכת",
+                "login": "pampersqa@gmail.com",
+                "password": "Testing123"
+            },
+            "ja-JP": {
+                "localizedPath": "login",
+                "login": "pampersqa@gmail.com",
+                "password": "Testing123"
+            },
+            "pt-BR": {
+                "localizedPath": "entrar",
+                "login": "jean.max-01@gmail.com",
+                "password": "Testing123"
+            },
+            "en-IN": {
+                "localizedPath": "login",
+                "login": "pampersqa@gmail.com",
+                "password": "Testing123"
+            },
+            "en-CA": {
+                "localizedPath": "login",
+                "login": "jean.max-01@gmail.com",
+                "password": "Testing123"
+            },
+            "en-AE": {
+                "localizedPath": "login",
+                "login": "pampersqa@gmail.com",
+                "password": "Testing123"
+            },
+            "cs-CZ": {
+                "localizedPath": "prihlaseni",
+                "login": "pampersqa@gmail.com",
+                "password": "Testing123"
+            },
+            "tr-TR": {
+                "localizedPath": "giris-yap",
+                "login": "pampersqa@gmail.com",
+                "password": "Testing123"
+            },
+            "en-PH": {
+                "localizedPath": "login",
+                "login": "pampersqa@gmail.com",
+                "password": "Testing123"
+            },
+            "es-AR": {
+                "localizedPath": "ingresa",
+                "login": "pampersqa@gmail.com",
+                "password": "Testing123"
+            },
+            "es-CL": {
+                "localizedPath": "iniciar-sesion",
+                "login": "pampersqa@gmail.com",
+                "password": "Testing123"
+            },
+            "es-MX": {
+                "localizedPath": "ingresa",
+                "login": "pampersqa@gmail.com",
+                "password": "Testing123"
+            },
+            "pt-PT": {
+                "localizedPath": "iniciar-sessao",
+                "login": "pampersqa@gmail.com",
+                "password": "Testing123"
+            },
+            "de-AT": {
+                "localizedPath": "anmeldung",
+                "login": "pampersqa@gmail.com",
+                "password": "Testing123"
+            },
+            "fr-CA": {
+                "localizedPath": "login",
+                "login": "jean.max-01@gmail.com",
+                "password": "Testing123"
+            },
+            "ro-RO": {
+                "localizedPath": "autentificare",
+                "login": "pampersqa@gmail.com",
+                "password": "Testing123"
+            },
+            "el-GR": {
+                "localizedPath": "είσοδος",
+                "login": "pampersqa@gmail.com",
+                "password": "Testing123"
+            },
+            "es-PE": {
+                "localizedPath": "iniciar-sesion",
+                "login": "pampersqa@gmail.com",
+                "password": "Testing123"
+            },
+            "sv-SE": {
+                "localizedPath": "logga-in",
+                "login": "pampersqa@gmail.com",
+                "password": "Testing123"
+            },
+            "fi-FI": {
+                "localizedPath": "kirjaudu-sisaan",
+                "login": "pampersqa@gmail.com",
+                "password": "Testing123"
+            },
+            "zh-Hant-TW": {
+                "localizedPath": "登入",
+                "login": "pampersqa@gmail.com",
+                "password": "Testing123"
+            },
+            "es-US": {
+                "localizedPath": "login",
+                "login": "proxqa_sad-112@gmail.com",
+                "password": "Testing123"
+            },
+            "ar-SA": {
+                "localizedPath": "login",
+                "login": "pampersqa@gmail.com",
+                "password": "Testing123"
+            }
+        }
+    },
+    "logout": {
+        "scope": [
+            "en-US"
+        ],
+        "properties": {
+            "en-US": ["avatarSelector", "logoutBtnSelector"],
+            "de-DE": ["avatarSelector", "logoutBtnSelector"],
+            "en-GB": ["avatarSelector", "logoutBtnSelector"],
+            "fr-FR": ["avatarSelector", "logoutBtnSelector"],
+            "he-IL": ["avatarSelector", "logoutBtnSelector"],
+            "common": ["avatarCommon", "logOutbtnCommon"]
+        }
+    },
+    "registration": {
+        "scope": [
+            "fr-FR"
+        ],
+        "properties": {
+            "en-US": {
+                "localizedPath": {
+                    "registration": "registration",
+                    "thankYou": "thank-you-completed",
+                    "editProfile": "edit-profile"
+                },
+                "fields": [
+                    "newFacebookConnectBtn", "googleConnectBtn", "appleConnectBtn"
+                ],
+                "dateFormat": "mm/dd/yyyy",
+                "marketConfig": {
+                    "dontCheckLoaderAndClickAgain": true
+                },
+                "newNav": true
+            },
+            "fr-FR": {
+                "localizedPath": {
+                    "registration": "inscription",
+                    "thankYou": "merci-terminee",
+                    "editProfile": "modifier-le-profil"
+                },
+                "fields": [
+                    "gdpr", "lastName"
+                ],
+                "dateFormat": "dd/mm/yyyy",
+                "marketConfig": {
+                    "dontCheckLoaderAndClickAgain": false
+                },
+                "newNav": true
+            },
+            "de-DE": {
+                "localizedPath": {
+                    "registration": "registrierung",
+                    "thankYou": "email-sent",
+                    "editProfile": ""
+                },
+                "fields": [
+                    "gdpr"
+                ],
+                "dateFormat": "dd/mm/yyyy",
+                "newNav": true
+            },
+            "ja-JP": {
+                "localizedPath": {
+                    "registration": "registration",
+                    "thankYou": "thank-you-page",
+                    "editProfile": "edit-profile"
+                },
+                "fields": [
+                    "newFacebookConnectBtn", "noFirstName"
+                ],
+                "dateFormat": "yyyy/mm/dd"
+            },
+            "en-CA": {
+                "localizedPath": {
+                    "registration": "registration",
+                    "thankYou": "thank-you-page-rewards",
+                    "editProfile": "edit-profile"
+                },
+                "fields": [
+                    "postalCode", "facebookConnectBtn"
+                ],
+                "dateFormat": "mm/dd/yyyy"
+            },
+            "en-GB": {
+                "localizedPath": {
+                    "registration": "registration",
+                    "thankYou": "thank-you-completed",
+                    "editProfile": "edit-profile"
+                },
+                "fields": [
+                    "gdpr", "ukAddressCountry"
+                ],
+                "marketConfig": {
+                    "dontCheckLoaderAndClickAgain": true
+                },
+                "dateFormat": "dd/mm/yyyy",
+                "newNav": true
+            },
+            "en-IN": {
+                "localizedPath": {
+                    "registration": "registration",
+                    "thankYou": "thank-you-page",
+                    "editProfile": "edit-profile"
+                },
+                "fields": [
+                    "phoneNumber"
+                ]
+            },
+            "ar-SA": {
+                "localizedPath": {
+                    "registration": "registration",
+                    "thankYou": "thank-you-completed",
+                    "editProfile": "edit-profile"
+                },
+                "fields": [
+                    ""
+                ],
+                "dateFormat": "dd/mm/yyyy"
+            },
+            "en-AE": {
+                "localizedPath": {
+                    "registration": "registration",
+                    "thankYou": "thank-you-completed",
+                    "editProfile": "edit-profile"
+                },
+                "fields": [
+                    "facebookConnectBtn"
+                ]
+            },
+            "pt-BR": {
+                "localizedPath": {
+                    "registration": "inscricao",
+                    "thankYou": "agradecimento-por-cadastro-v3",
+                    "editProfile": "editar-perfil"
+                },
+                "fields": [
+                    "facebookConnectBtn", "globalOptText",  "diaperSubbrandList","emailMarketingCheckBox"
+                ],
+                "dateFormat": "dd/mm/yyyy"
+            },
+            "es-ES": {
+                "localizedPath": {
+                    "registration": "registro",
+                    "thankYou": "member-pages/thank-you-page",
+                    "editProfile": "editar-perfil"
+                },
+                "fields": [
+                    "lastName", "gdpr", "postalCode"
+                ],
+                "dateFormat": "dd/mm/yyyy"
+            },
+            "ru-RU": {
+                "localizedPath": {
+                    "registration": "registration",
+                    "thankYou": "thank-you-completed",
+                    "editProfile": "edit-profile"
+                },
+                "fields": [
+                    "facebookConnectBtn", "gdpr", "phoneNumber"
+                ]
+            },
+            "fr-CA": {
+                "localizedPath": {
+                    "registration": "inscription",
+                    "thankYou": "thank-you-page-vortex",
+                    "editProfile": "modifier-le-profil"
+                },
+                "fields": [
+                    "postalCode"
+                ],
+                "dateFormat": "dd/mm/yyyy"
+            },
+            "es-CL": {
+                "localizedPath": {
+                    "registration": "registro",
+                    "thankYou": "thank-you-page-vortex",
+                    "editProfile": "editar-perfil"
+                },
+                "fields": [
+                    "diaperBrandList"
+                ],
+                "dateFormat": "dd/mm/yyyy"
+            },
+            "es-MX": {
+                "localizedPath": {
+                    "registration": "registrate",
+                    "thankYou": "thank-you-page-vortex",
+                    "editProfile": "editar-perfil"
+                },
+                "fields": [
+                    "primaryAddressCountryListCRI"
+                ],
+                "dateFormat": "dd/mm/yyyy"
+            },
+            "el-GR": {
+                "localizedPath": {
+                    "registration": "εγγραφή",
+                    "thankYou": "thank-you-page-vortex",
+                    "editProfile": "επεξεργασία-προφίλ"
+                },
+                "fields": [
+                    "gdpr", "lastName"
+                ],
+                "dateFormat": "dd/mm/yyyy"
+            },
+            "he-IL": {
+                "localizedPath": {
+                    "registration": "הרשמה-תודה",
+                    "thankYou": "thank-you-page-vortex",
+                    "editProfile": "עריכת-פרופיל"
+                },
+                "fields": [
+                    "gdpr"
+                ],
+                "dateFormat": "yyyy/mm/dd",
+                "newNav": true
+            },
+            "nl-NL": {
+                "localizedPath": {
+                    "registration": "inschrijving",
+                    "thankYou": "dank-u-voltooid",
+                    "editProfile": "profiel-bijwerken"
+                },
+                "fields": [
+                    "gdpr", "lastName"
+                ],
+                "dateFormat": "dd/mm/yyyy"
+            },
+            "fr-BE": {
+                "localizedPath": {
+                    "registration": "inscription",
+                    "thankYou": "thank-you-page-vortex",
+                    "editProfile": "modifier-le-profil"
+                },
+                "fields": [
+                    "gdpr", "lastName"
+                ],
+                "dateFormat": "dd/mm/yyyy"
+            },
+            "nl-BE": {
+                "localizedPath": {
+                    "registration": "inschrijving",
+                    "thankYou": "thank-you-page-vortex",
+                    "editProfile": "profiel-bijwerken"
+                },
+                "fields": [
+                    "gdpr", "lastName"
+                ],
+                "dateFormat": "dd/mm/yyyy"
+            },
+            "es-AR": {
+                "localizedPath": {
+                    "registration": "registro",
+                    "thankYou": "thank-you-page-vortex",
+                    "editProfile": "editar-perfil"
+                },
+                "fields": [
+                    "diaperBrandList"
+                ]
+            },
+            "es-PE": {
+                "localizedPath": {
+                    "registration": "registro",
+                    "thankYou": "thank-you-completed",
+                    "editProfile": "editar-perfil"
+                },
+                "fields": [
+                    "diaperBrandList"
+                ],
+                "dateFormat": "dd/mm/yyyy"
+            },
+            "ro-RO": {
+                "localizedPath": {
+                    "registration": "inregistrare",
+                    "thankYou": "thank-you-page-vortex",
+                    "editProfile": "modificare-profil"
+                },
+                "fields": [
+                    "gdpr", "lastName"
+                ],
+                "dateFormat": "dd/mm/yyyy"
+            },
+            "pl-PL": {
+                "localizedPath": {
+                    "registration": "rejestracja",
+                    "thankYou": "dziekuje-strona",
+                    "editProfile": "profil"
+                },
+                "fields": [
+                    "gdpr", "lastName"
+                ],
+                "dateFormat": "dd/mm/yyyy"
+            },
+            "hu-HU": {
+                "localizedPath": {
+                    "registration": "regisztracio",
+                    "thankYou": "thank-you-page-vortex",
+                    "editProfile": "profil-szerkesztese"
+                },
+                "fields": [
+                    "gdpr"
+                ],
+                "dateFormat": "dd/mm/yyyy"
+            },
+            "hr-HR": {
+                "localizedPath": {
+                    "registration": "registracija",
+                    "thankYou": "thank-you-page-vortex",
+                    "editProfile": "uredite-profil"
+                },
+                "fields": [
+                    "gdpr"
+                ],
+                "dateFormat": "dd/mm/yyyy"
+            },
+            "tr-TR": {
+                "localizedPath": {
+                    "registration": "kayit",
+                    "thankYou": "uyelik-tesekkurler",
+                    "editProfile": "profili-duzenle"
+                },
+                "fields": [
+                    "lastName", "gdpr", "streetAddress1", "city", "phoneNumber",
+                    "pampersTrOtp1", "pampersTrOtp2"
+                ],
+                "dateFormat": "dd/mm/yyyy"
+            },
+            "en-PH": {
+                "localizedPath": {
+                    "registration": "registration",
+                    "thankYou": "thank-you-page-vortex",
+                    "editProfile": "edit-profile"
+                },
+                "fields": [
+                    ""
+                ]
+            },
+            "pt-PT": {
+                "localizedPath": {
+                    "registration": "registo",
+                    "thankYou": "thank-you-page-vortex",
+                    "editProfile": "editar-perfil"
+                },
+                "fields": [
+                    "displayName", "postalCode", "gdpr"
+                ],
+                "dateFormat": "mm/dd/yyyy"
+            },
+            "de-AT": {
+                "localizedPath": {
+                    "registration": "registrierung",
+                    "thankYou": "danke-seite-registrierung",
+                    "editProfile": "profil-bearbeiten"
+                },
+                "fields": [
+                    "lastName", "gdpr", "postalCode", "streetAddress1", "city"
+                ],
+                "dateFormat": "dd/mm/yyyy"
+            },
+            "cs-CZ": {
+                "localizedPath": {
+                    "registration": "registrace",
+                    "thankYou": "thank-you-page-vortex",
+                    "editProfile": "muj-profil"
+                },
+                "fields": [
+                    "gdpr"
+                ],
+                "dateFormat": "dd/mm/yyyy"
+            },
+            "sv-SE": {
+                "localizedPath": {
+                    "registration": "registrering",
+                    "thankYou": "tack",
+                    "editProfile": "redigera-profil"
+                },
+                "fields": [
+                    "gdpr", "lastName", "streetAddress1",
+                    "streetAddress2", "city", "postalCode"
+                ],
+                "dateFormat": "mm/dd/yyyy"
+            },
+            "fi-FI": {
+                "localizedPath": {
+                    "registration": "rekisteroityminen",
+                    "thankYou": "kiitos",
+                    "editProfile": "muokkaa-profiilia"
+                },
+                "fields": [
+                    "lastName", "gdpr", "streetAddress1",
+                    "streetAddress2", "city", "postalCode"
+                ],
+                "dateFormat": "mm/dd/yyyy"
+            },
+            "zh-Hant-TW": {
+                "localizedPath": {
+                    "registration": "註冊",
+                    "thankYou": "thank-you-page-vortex",
+                    "editProfile": "修改個人資料"
+                },
+                "fields": [
+                    "lastName", "phoneNumber", "streetAddress2",
+                    "city", "streetAddress1", "pampersTwTraitRetailerPreference",
+                    "traitDiaperListTW", "pampersTwOpt"
+                ],
+                "dateFormat": "mm/dd/yyyy"
+            },
+            "es-US": {
+                "localizedPath": {
+                    "registration": "registration",
+                    "thankYou": "thank-you-page-vortex",
+                    "editProfile": "editar-perfil"
+                },
+                "fields": [
+                    "postalCode"
+                ],
+                "dateFormat": "mm/dd/yyyy"
+            }
+        }
+    },
+    "editProfile": {
+        "scope": "*",
+        "properties": {
+            "en-US": "edit-profile",
+            "de-DE": "profil-bearbeiten",
+            "fr-FR": "modifier-le-profil",
+            "ru-RU": "edit-profile",
+            "pt-BR": "editar-perfil",
+            "ja-JP": "edit-profile",
+            "en-CA": "edit-profile",
+            "en-GB": "edit-profile",
+            "ar-SA": "edit-profile",
+            "en-AE": "edit-profile",
+            "en-IN": "edit-profile",
+            "es-ES": "editar-perfil",
+            "fr-CA": "modifier-le-profil",
+            "es-CL": "editar-perfil",
+            "es-MX": "editar-perfil",
+            "el-GR": "επεξεργασία-προφίλ",
+            "he-IL": "עריכת-פרופיל",
+            "nl-NL": "profiel-bijwerken",
+            "fr-BE": "modifier-le-profil",
+            "nl-BE": "profiel-bijwerken",
+            "es-AR": "editar-perfil",
+            "es-PE": "editar-perfil",
+            "ro-RO": "modificare-profil",
+            "pl-PL": "profil",
+            "hu-HU": "profil-szerkesztese",
+            "hr-HR": "uredite-profil",
+            "tr-TR": "profili-duzenle",
+            "en-PH": "edit-profile",
+            "pt-PT": "editar-perfil",
+            "de-AT": "profil-bearbeiten",
+            "sv-SE": "redigera-profil",
+            "fi-FI": "muokkaa-profiilia",
+            "zh-Hant-TW": "修改個人資料",
+            "es-US": "editar-perfil",
+            "cs-CZ": "muj-profil"
+        }
+    },
+    "forgotPassword": {
+        "scope": "*",
+        "properties": {
+            "en-US": "reset-password",
+            "de-DE": "kennwort-zurucksetzen",
+            "fr-FR": "reinitialisation-du-mot-de-passe",
+            "ru-RU": "reset-password",
+            "pt-BR": "redefinir-senha",
+            "ja-JP": "reset-password",
+            "en-CA": "reset-my-password",
+            "en-GB": "reset-password",
+            "ar-SA": "reset-password",
+            "en-AE": "reset-password",
+            "en-IN": "reset-password",
+            "es-ES": "cambiar-contrasena",
+            "fr-CA": "reset-my-password",
+            "es-CL": "restablecer-contrasena",
+            "es-MX": "restablecer-contrasena",
+            "el-GR": "ανάκτηση-κωδικού",
+            "he-IL": "איפוס-סיסמה",
+            "nl-NL": "wachtwoord-opnieuw-instellen",
+            "fr-BE": "reinitialisation-du-mot-de-passe",
+            "nl-BE": "wachtwoord-resetten",
+            "es-AR": "restablecer-contrasena",
+            "es-PE": "restablecer-contrasena",
+            "ro-RO": "resetare-parola",
+            "pl-PL": "zresetuj-haslo",
+            "hu-HU": "jelszo-visszaallitasa",
+            "hr-HR": "ponovno-postavljanje-zaporke",
+            "tr-TR": "parola-yenileme",
+            "en-PH": "reset-password",
+            "pt-PT": "alterar-palavra-passe",
+            "de-AT": "kennwort-zurucksetzen",
+            "sv-SE": "aterstall-losenordet",
+            "fi-FI": "vaihda-salasana",
+            "zh-Hant-TW": "重設密碼",
+            "es-US": "restablecer-contrasena",
+            "cs-CZ": "heslo-bylo-zmeneno"
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "market": "en-US",
+    "env": "prod",
+    "scope": {
+        "cgp": {
+            "url": "https://www.pampers.com/en-us/pregnancy/chinese-gender-predictor",
+            "selector": "[class='container page-container']"
+        },
+        "cgp embedded": {
+            "url": "https://www.pampers.com/en-us/pregnancy/pregnancy-announcement/article/10-fun-ideas-for-pregnancy-announcement-cards",
+            "selector": "[data-cy='cgp-embeded-form']",
+            "successMessage": ".thank-you-container #success"
+        }
+    },
+    "container": {
+        "registration": "[data-cy='registration-form-component']",
+        "result": "[class='container page-container']"
+    },
+    "flow": {
+        "momAge": "(//input[@name='mom_age'])[1]",
+        "calendarIcon": "(//div[@class='date-field-calendar-icon'])[1]",
+        "cta": "(//button[contains(@class, 'btn-sub-cgp')])[1]"
+    },
+    "staticLabel": [
+        "ENG_PREGNANCY_TOOL_OTHER_ALL",
+        "REG_PREGNANCY_TOOL_CTA_ALL",
+        "REG_REG-PAGE_OTHER_OTHER_ALL",
+        "LOG_ALLSITE_OTHER_OTHER_ALL",
+        "ENG_ALLSITE_OTHER_OTHER_ALL_breadcrumb",
+        "ENG_PREGNANCY_TOOL_ARTICLE-PUSH_ALL",
+        "ENG_REG-PAGE_OTHER_OTHER_ALL"
+    ]
+}

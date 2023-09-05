@@ -1,0 +1,100 @@
+{
+    "scope": ["fr-FR"],
+    "env": "prod",
+    "markets": {
+        "en-US": {
+            "searchText": "diaper",
+            "promoBanner": true,
+            "offers": true,
+            "localizedResultSection": {
+                "products": "Products",
+                "articles": "Articles",
+                "tools": "Tools, Guides & Quizzes"
+            },
+            "newNav": true
+        },
+        "es-ES": {
+            "searchText": "panales",
+            "promoBanner": true,
+            "offers": true,
+            "localizedResultSection": {
+                "products": "Productos",
+                "articles": "Artículos",
+                "tools": "Herramientas, Guías y Tests"
+            }
+        },
+        "en-GB": {
+            "searchText": "nappies",
+            "promoBanner": true,
+            "offers": true,
+            "localizedResultSection": {
+                "products": "Products",
+                "articles": "Articles",
+                "tools": "Tools, Guides & Quizzes "
+            },
+            "newNav": true
+        },
+        "fr-FR": {
+            "searchText": "couche",
+            "promoBanner": true,
+            "offers": true,
+            "localizedResultSection": {
+                "products": "Produits",
+                "articles": "Articles",
+                "tools": "Outils, guides et quiz"
+            },
+            "newNav": true
+        },
+        "de-DE": {
+            "searchText": "windeln",
+            "promoBanner": true,
+            "offers": true,
+            "localizedResultSection": {
+                "products": "Produkte",
+                "articles": "Artikel",
+                "tools": "Tools, Ratgeber & Quizze"
+            },
+            "newNav": true
+        },
+        "es-CL": {
+            "searchText": "pañales",
+            "promoBanner": false,
+            "offers": false,
+            "localizedResultSection": {
+                "products": "Productos",
+                "articles": "Artículos",
+                "tools": "Herramientas, Guías y Tests"
+            }
+        },
+        "es-AR": {
+            "searchText": "pañales",
+            "promoBanner": false,
+            "offers": false,
+            "localizedResultSection": {
+                "products": "Productos",
+                "articles": "Artículos",
+                "tools": "Herramientas, Guías y Tests"
+            }
+        },
+        "es-PE": {
+            "searchText": "pañales",
+            "promoBanner": false,
+            "offers": false,
+            "localizedResultSection": {
+                "products": "Productos",
+                "articles": "Artículos",
+                "tools": "Herramientas, Guías y Tests"
+            }
+        },
+        "es-MX": {
+            "searchText": "pañales",
+            "promoBanner": false,
+            "offers": false,
+            "localizedResultSection": {
+                "products": "Productos",
+                "articles": "Artículos",
+                "tools": "Herramientas, Guías y Tests"
+            }
+        }
+    }
+}

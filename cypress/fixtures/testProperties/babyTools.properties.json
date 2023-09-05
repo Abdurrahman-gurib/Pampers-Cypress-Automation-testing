@@ -1,0 +1,729 @@
+{
+    "scope": [
+        "en-US"
+    ],
+    "env": "prod",
+    "babyTools": {
+        "DDC": {
+            "test": [
+                "dateConceived", "myLastPeriod",
+                "reactCalendartLastPeriod", "firstDayOfCurrentMonth",
+                "cycleLengthPrevBtn", "ctaBtn"
+            ],
+            "result": [
+                "isVisible_resultContainer", "wait", "wait",
+                "wait", "recalculate",
+                "wait", "dateConceived"
+            ]
+        },
+        "BNG": {
+            "test": [
+                "isVisible_babyNameList", "genderFilterF",
+                "clearGenderFilter", "genderFilterM",
+                "clearAllFilter", "themeFilter",
+                "filterOrigin", "genderFilterM",
+                "clearAllFilter", "wait", "ctaBtn"
+            ],
+            "result": [
+                "firstBN%saveTemp", "loadMoreBtn",
+                "wait", "bngSearchBar%typeTemp",
+                "searchIcon", "wait", "addBabyName",
+                "wait", "addBabyName", "rmTemp"
+            ]
+        },
+        "CGP": {
+            "test": [
+                "monAgeAtConception|25", "reactCalendar",
+                "firstDayOfCurrentMonth", "wait",
+                "ctaBtn"
+            ],
+            "result": ["resultContainer"]
+        },
+        "BGC": {
+            "test": [
+                "wait","wait","wait",
+                "age|6", "weight|16.5", "height|25",
+                "headCircumference|16", "genderFilterBoy", 
+                "wait", "ctaBtn"
+            ],
+            "result": [
+                "isVisible_chartContainer",
+                "chartHeight", "isVisible_chartContainer",
+                "chartHead", "isVisible_chartContainer",
+                "recalculate", "genderFilterBoy"
+            ]
+        },
+        "WGC": {
+            "test": [
+                "weight|4", "height|6",
+                "heightInches|5", "pregnancyWeek|5",
+                "weight|5", "ctaBtn"
+            ],
+            "result": [
+                "isVisible_resultContainer", "isVisible_wgTable",
+                "recalculate", "weight|45"
+            ]
+        },
+        "BFF": {
+            "test": [
+                "isVisible_topBannerPicture", "isVisible_topBannerTitle",
+                "isVisible_disclaimer", "isVisible_bffIcon",
+                "reactCalendar", "wait", "firstDayOfCurrentMonth",
+                "ctaBtn"
+            ],
+            "result": [
+                "isVisible_disclaimer", "resultSection",
+                "isVisible_topBannerPicture"
+            ]
+        },
+        "pregnancyNotifier": {
+            "test": [
+                "isVisible_banner", "isVisible_checklist",
+                "isVisible_steps", "cta-locked"
+            ],
+            "result": [
+                "wait", "wait", "cta", "isVisible_gmail",
+                "isVisible_apple", "isVisible_outlook"
+            ]
+        }
+    },
+    "markets": {
+        "en-US": {
+            "babyTools": [
+                "BNG", "DDC", "CGP", "BGC", "WGC", "BFF"
+            ],
+            "localizedPath": {
+                "BNG": "pregnancy/baby-names/find-your-baby-name",
+                "DDC": "pregnancy/due-date-calculator-page",
+                "CGP": "pregnancy/chinese-gender-predictor",
+                "BGC": "baby/growth-chart-calculator",
+                "WGC": "pregnancy/pregnancy-weight-gain-calculator",
+                "BFF": "pregnancy/baby-birthday-facts",
+                "pregnancyNotifier": "pregnancy/follow-my-pregnancy-notifier"
+            },
+            "loggedUser": true,
+            "vortexUrl": [
+                "r-babynamegeneratorvortex?use-vortex-scenario=true",
+                "r-babyfunfactsvortex?use-vortex-scenario=true!reactCalendarIcon",
+                "r-registry-checklist?use-vortex-scenario=true",
+                "r-ddc?use-vortex-scenario=true!reactCalendarIcon",
+                "r-chinesegenderpredictor-v1?use-vortex-scenario=true",
+                "r-bgc-vortex-scenario?use-vortex-scenario=true",
+                "r-weight-gain-calc?use-vortex-scenario=true",
+                "r-calendar-notifier?use-vortex-scenario=true"
+            ] 
+        },
+        "fr-FR": {
+            "babyTools": [
+                "BNG", "DDC", "BGC", "BFF"
+            ],
+            "localizedPath": {
+                "BNG": "grossesse/prenoms-de-bebes/trouvez-le-prenom-de-votre-bebe",
+                "DDC": "grossesse/calculateur-de-grossesse-page",
+                "BGC": "bebe/courbe-de-croissance",
+                "BFF": "tout-sur-la-date-danniversere-de-votre-bebe"
+            },
+            "dontRun": {
+                "BNG": "isVisible_babyNameAva"
+            },
+            "loggedUser": true,
+            "vortexUrl": [
+                "r-bng-vortex-scenario?use-vortex-scenario=true!reactCalendarIcon",
+                "r-babyfunfactsvortex?use-vortex-scenario=true!reactCalendarIcon",
+                "r-duedatecalculatorunlocked?use-vortex-scenario=true!reactCalendarIcon"
+            ] 
+        },
+        "en-GB": {
+            "babyTools": [
+                "BNG", "DDC", "WGC", "CGP", "BGC", "BFF"
+            ],
+            "localizedPath": {
+                "DDC": "pregnancy/due-date-calculator-page",
+                "WGC": "pregnancy/pregnancy-weight-gain-calculator",
+                "BGC": "baby/growth-chart-calculator",
+                "BNG": "pregnancy/baby-names/find-your-baby-name",
+                "CGP": "pregnancy/chinese-gender-predictor",
+                "BFF": "pregnancy/baby-birthday-facts"
+            },
+            "dontRun": {
+                "WGC": "heightInches"
+            },
+            "loggedUser": true,
+            "vortexUrl": [
+                "r-duedatecalculatorunlocked?use-vortex-scenario=true!reactCalendarIcon",
+                "r-weight-gain-calc?use-vortex-scenario=true!reactCalendarIcon",
+                "r-chinesegenderpredictor-v1-uk?use-vortex-scenario=true!reactCalendarIcon",
+                "r-babyfunfactsvortex?use-vortex-scenario=true!reactCalendarIcon",
+                "r-babynamegeneratorvortex?use-vortex-scenario=true!reactCalendarIcon",
+                "r-bgc-vortex-scenario-uk?use-vortex-scenario=true!reactCalendarIcon"
+            ] 
+        },
+        "de-DE": {
+            "babyTools": [
+                "BNG", "DDC", "WGC", "BGC", "BFF"
+            ],
+            "localizedPath": {
+                "DDC": "schwangerschaft/schwangerschaftsrechner-page",
+                "WGC": "schwangerschaft/gewichtszunahmerechner",
+                "BGC": "baby/groessenrechner",
+                "BNG": "schwangerschaft/babynamen/babynamen-finden",
+                "BFF": "schwangerschaft/fakten-baby-geburtsdatum"
+            },
+            "dontRun": {
+                "WGC": "heightInches"
+            },
+            "loggedUser": true,
+            "vortexUrl": [
+                "r-ddc-result-open-email?use-vortex-scenario=true!reactCalendarIcon",
+                "r-babynamegeneratorvortex?use-vortex-scenario=true!reactCalendarIcon",
+                "r-babyfunfactsvortex?use-vortex-scenario=true!reactCalendarIcon",
+                "r-weight-gain-calc?use-vortex-scenario=true!reactCalendarIcon",
+                "r-bgc-vortex-scenario?use-vortex-scenario=true!reactCalendarIcon"
+            ] 
+        },
+        "en-CA": {
+            "babyTools": [
+                "BNG", "DDC", "WGC", "BGC", "BFF"
+            ],
+            "localizedPath": {
+                "DDC": "pregnancy/due-date-calculator-page",
+                "WGC": "pregnancy/pregnancy-weight-gain-calculator",
+                "BGC": "baby/growth-chart-calculator",
+                "BNG": "pregnancy/baby-names/find-your-baby-name",
+                "CGP": "pregnancy/chinese-gender-predictor",
+                "BFF" : "pregnancy/baby-birthday-facts"
+
+            },
+            "loggedUser": true,
+            "vortexUrl": [
+                "r-ddc-result-open-email?use-vortex-scenario=true!reactCalendarIcon",
+                "r-bng-vortex-scenario?use-vortex-scenario=true",
+                "r-babyfunfactsvortex?use-vortex-scenario=true",
+                "r-weight-gain-calc?use-vortex-scenario=true",
+                "r-bgc-vortex-scenario?use-vortex-scenario=true"
+            ] 
+        },
+        "en-AE": {
+            "babyTools": [
+                "BNG", "DDC", "WGC", "BGC"
+            ],
+            "localizedPath": {
+                "DDC": "pregnancy/due-date-calculator-page",
+                "WGC": "pregnancy/pregnancy-weight-gain-calculator",
+                "BGC": "baby/growth-chart-boys-girls",
+                "BNG": "pregnancy/baby-names/find-your-baby-name"
+            },
+            "dontRun": {
+                "WGC": "heightInches"
+            },
+            "loggedUser": true
+        },
+        "en-IN": {
+            "babyTools": [
+                "BNG", "DDC", "BGC", "WGC"
+            ],
+            "localizedPath": {
+                "DDC": "pregnancy/due-date-calculator-page",
+                "WGC": "pregnancy/pregnancy-weight-gain-calculator",
+                "BGC": "baby/growth-chart-boys-girls",
+                "BNG": "pregnancy/baby-names/indian-baby-names-generator-tool"
+            },
+            "dontRun": {
+                "BNG": "isVisible_babyNameAva",
+                "WGC": "heightInches"
+            },
+            "loggedUser": true
+        },
+        "ar-SA": {
+            "babyTools": [
+                "BNG", "DDC", "WGC"
+            ],
+            "localizedPath": {
+                "DDC": "pregnancy/due-date-calculator-page",
+                "WGC": "pregnancy/pregnancy-weight-gain-calculator",
+                "BNG": "pregnancy/baby-names-for-boys-and-girls/find-your-baby-name"
+            },
+            "dontRun": {
+                "WGC": "heightInches"
+            },
+            "loggedUser": true
+        },
+        "ja-JP": {
+            "babyTools": [
+                "DDC", "WGC"
+            ],
+            "localizedPath": {
+                "DDC": "pregnancy/due-date-calculator-page",
+                "WGC": "pregnancy/pregnancy-weight-gain-calculator"
+            },
+            "dontRun": {
+                "WGC": "heightInches"
+            },
+            "loggedUser": true,
+            "vortexUrl": [
+                "r-weight-gain-calc?use-vortex-scenario=true!firstName"
+            ] 
+        },
+        "ru-RU": {
+            "babyTools": [
+                "BNG", "DDC", "WGC", "BGC", "CGP"
+            ],
+            "localizedPath": {
+                "DDC": "pregnancy/due-date-calculator-page",
+                "WGC": "pregnancy/pregnancy-weight-gain-calculator",
+                "BGC": "growth-chart-boys-girls",
+                "BNG": "pregnancy/baby-names/find-your-baby-name",
+                "CGP": "pregnancy/chinese-gender-predictor"
+            },
+            "dontRun": {
+                "BNG": "isVisible_babyNameAva",
+                "WGC": "heightInches"
+            },
+            "loggedUser": true
+        },
+        "es-ES": {
+            "babyTools": [
+                "BNG", "DDC", "WGC", "BGC", "CGP", "BFF"
+            ],
+            "localizedPath": {
+                "DDC": "embarazo/calculadora-del-parto-page",
+                "WGC": "embarazo/calculadora-de-aumento-de-peso",
+                "BGC": "tabla-de-crecimiento-para-ninos-y-ninas",
+                "BNG": "embarazo/nombres-de-bebes/generador-de-nombres-de-bebes",
+                "CGP": "embarazo/predictor-chino-de-genero",
+                "BFF": "embarazo/curiosidades-del-cumpleanos-del-bebe"
+            },
+            "dontRun": {
+                "BNG": "isVisible_babyNameAva",
+                "WGC": "heightInches"
+            },
+            "loggedUser": true,
+            "vortexUrl": [
+                "r-duedatecalculatorunlocked?use-vortex-scenario=true!reactCalendarIcon",
+                "r-babyfunfactsvortex?use-vortex-scenario=true!reactCalendarIcon",
+                "r-babynamegeneratorvortex?use-vortex-scenario=true!reactCalendarIcon",
+                "r-chinesegenderpredictor-v1?use-vortex-scenario=true!reactCalendarIcon",
+                "r-weight-gain-calc?use-vortex-scenario=true!reactCalendarIcon",
+                "r-bgc-vortex-scenario1?use-vortex-scenario=true!reactCalendarIcon"
+            ] 
+        },
+        "pt-BR": {
+            "babyTools": [
+                "BNG", "WGC", "BGC", "CGP", "BFF"
+            ],
+            "localizedPath": {
+                "DDC": "gravidez/calculadora-gestacional-page",
+                "WGC": "gravidez/gravidez-ganho-de-peso-calculadora",
+                "BGC": "grafico-de-crescimento-meninos-meninas",
+                "BNG": "gravidez/nomes-de-bebes/gerador-de-nomes-de-bebes",
+                "CGP": "gravidez/preditor-de-genero-chines",
+                "BFF": "gravidez/fatos-curiosos-sobre-a-data-de-nascimento"
+            },
+            "dontRun": {
+                "BNG": "isVisible_babyNameAva",
+                "WGC": "heightInches"
+            },
+            "loggedUser": true,
+            "vortexUrl": [
+                "r-ddc?use-vortex-scenario=true",
+                "r-bng-vortex-scenario?use-vortex-scenario=true",
+                "r-chinesegenderpredictor-v1?use-vortex-scenario=true",
+                "r-weight-gain-calculator-locked?use-vortex-scenario=true"
+            ] 
+        },
+        "fr-CA": {
+            "babyTools": [
+                "DDC", "BFF", "BGC"
+            ],
+            "localizedPath": {
+                "DDC": "grossesse/calculatrice-de-la-date-prevue-de-l-accouchement-page",
+                "BFF": "grossesse/anecdotes-sur-a-date-de-naissance-du-bebe",
+                "BGC": "bebe/courbe-de-croissance-de-bebe"
+            },
+            "loggedUser": true,
+            "vortexUrl": [
+                "r-ddc-result-open-email?use-vortex-scenario=true",
+                "r-babyfunfactsvortex?use-vortex-scenario=true"
+            ] 
+        },
+        "es-CL": {
+            "babyTools": [
+                "BNG", "DDC", "WGC", "BFF", "BGC"
+            ],
+            "localizedPath": {
+                "BNG": "embarazo/nombres-de-bebes/generador-de-nombres-de-bebes",
+                "DDC": "embarazo/calculadora-de-embarazo-page",
+                "WGC": "embarazo/calculadora-de-peso-en-el-embarazo",
+                "BFF": "embarazo/datos-curiosos-del-cumpleanos",
+                "BGC": "bebe/tabla-de-crecimiento"
+            },
+            "dontRun": {
+                "WGC": "heightInches"
+            },
+            "loggedUser": true,
+            "vortexUrl": [
+                "r-bng-vortex-scenario?use-vortex-scenario=true",
+                "r-duedatecalculatorlocked?use-vortex-scenario=true!reactCalendarIcon",
+                "r-weight-gain-calc?use-vortex-scenario=true",
+                "r-babyfunfactsvortex?use-vortex-scenario=true",
+                "r-bgc-vortex-scenario?use-vortex-scenario=true",
+                "r-baby-shower-checklist?use-vortex-scenario=true"
+            ] 
+        },
+        "es-MX": {
+            "babyTools": [
+                "DDC", "WGC", "BFF", "BNG", "BGC"
+            ],
+            "localizedPath": {
+                "DDC": "embarazo/calculadora-de-embarazo-page",
+                "WGC": "embarazo/calculador-de-peso-en-el-embarazo",
+                "BFF": "embarazo/datos-curiosos-del-cumpleanos",
+                "BNG": "embarazo/nombres-de-bebes/generador-de-nombres-de-bebes",
+                "BGC": "bebe/tabla-de-crecimiento"
+            },
+            "dontRun": {
+                "WGC": "heightInches"
+            },
+            "loggedUser": true,
+            "vortexUrl": [
+                "r-duedatecalculatorlocked?use-vortex-scenario=true!reactCalendarIcon",
+                "r-weight-gain-calc?use-vortex-scenario=true",
+                "r-babyfunfactsvortex?use-vortex-scenario=true",
+                "r-babynamegeneratorvortex?use-vortex-scenario=true",
+                "r-bgc-vortex-scenario?use-vortex-scenario=true"
+            ] 
+        },
+        "el-GR": {
+            "babyTools": [
+                "DDC", "WGC","BGC"
+            ],
+            "localizedPath": {
+                "DDC": "εγκυμοσύνη/υπολογιστής-ημερομηνίας-τοκετού-page",
+                "WGC": "εγκυμοσύνη/εργαλείο-αύξησης-βάρους-εγκυμοσύνης",
+                "BGC":"μωρό/καμπύλη-ανάπτυξης-για-μωρά"
+            },
+            "dontRun": {
+                "WGC": "heightInches"
+            },
+            "loggedUser": true,
+            "vortexUrl": [
+                "r-duedatecalculatorunlocked?use-vortex-scenario=true!reactCalendarIcon",
+                "r-weight-gain-calc?use-vortex-scenario=true!reactCalendarIcon",
+                "r-bgc-vortex-scenario?use-vortex-scenario=true!reactCalendarIcon"
+            ] 
+        },
+        "he-IL": {
+            "babyTools": [
+                "BNG", "DDC"
+            ],
+            "localizedPath": {
+                "BNG": "הריון/שמות-לתינוקות/מצאו-את-השם-המושלם",
+                "DDC": "page-הריון/מחשבון-הריון"
+            },
+            "dontRun": {
+                "BNG": "filterOrigin"
+            },
+            "loggedUser": true,
+            "vortexUrl": [
+                "r-duedatecalculatorunlocked?use-vortex-scenario=true!reactCalendarIcon",
+                "r-bng-vortex-scenario?use-vortex-scenario=true!reactCalendarIcon"
+            ] 
+        },
+        "nl-NL": {
+            "babyTools": [
+                "BNG", "DDC", "BFF", "BGC"
+            ],
+            "localizedPath": {
+                "BNG": "zwangerschap/babynamen/kies-je-babynaam",
+                "DDC": "zwangerschap/uitgerekende-datum-berekenen-page",
+                "BFF": "weetjes-over-jouw-baby-s-geboortedatum",
+                "BGC": "groeischema-voor-jongens-meisjes"
+
+            },
+            "loggedUser": true,
+            "vortexUrl": [
+                "r-duedatecalculatorunlocked?use-vortex-scenario=true!reactCalendarIcon",
+                "r-bng-vortex-scenario?use-vortex-scenario=true!reactCalendarIcon",
+                "r-babyfunfactsvortex?use-vortex-scenario=true!reactCalendarIcon",
+                "r-bgc-vortex-scenario?use-vortex-scenario=true!reactCalendarIcon"
+            ] 
+        },
+        "fr-BE": {
+            "babyTools": [
+                "DDC", "BFF", "BGC"
+            ],
+            "localizedPath": {
+                "DDC": "grossesse/calcul-date-d-accouchement",
+                "BFF": "tout-sur-la-date-d-anniversaire-de-votre-bebe",
+                "BGC": "bebe/courbe-de-croissance"
+            },
+            "loggedUser": true,
+            "vortexUrl": [
+                "r-duedatecalculatorlocked?use-vortex-scenario=true!gdpr,reactCalendarIcon",
+                "r-babyfunfactsvortex?use-vortex-scenario=true!reactCalendarIcon",
+                "r-bgc-vortex-scenario?use-vortex-scenario=true!reactCalendarIcon"
+            ] 
+        },
+        "nl-BE": {
+            "babyTools": [
+                "DDC", "BFF", "BGC"
+            ],
+            "localizedPath": {
+                "DDC": "zwangerschap/bevallingsdatum-berekenen-page",
+                "BFF": "weetjes-over-jouw-babys-geboortedatum",
+                "BGC": "groeischema-voor-jongens-meisjes"
+
+            },
+            "loggedUser": true,
+            "vortexUrl": [
+                "r-ddc-result-open-email?use-vortex-scenario=true!reactCalendarIcon",
+                "r-bgc-vortex-scenario?use-vortex-scenario=true!reactCalendarIcon",
+                "r-babyfunfactsvortex?use-vortex-scenario=true!reactCalendarIcon"
+            ] 
+        },
+        "es-AR": {
+            "babyTools": [
+                "BNG", "DDC", "WGC", "BFF", "BGC"
+            ],
+            "localizedPath": {
+                "BNG": "embarazo/nombres-de-bebes/generador-de-nombres-de-bebes",
+                "DDC": "embarazo/calculadora-de-embarazo-page",
+                "WGC": "embarazo/calculador-de-peso-en-el-embarazo",
+                "BFF": "embarazo/datos-curiosos-del-cumpleanos",
+                "BGC": "bebe/tabla-de-crecimiento"
+            },
+            "dontRun": {
+                "WGC": "heightInches"
+            },
+            "loggedUser": true,
+            "vortexUrl": [
+                "r-babynamegeneratorvortex?use-vortex-scenario=true",
+                "r-duedatecalculatorlocked?use-vortex-scenario=true!reactCalendarIcon",
+                "r-weight-gain-calc?use-vortex-scenario=true",
+                "r-babyfunfactsvortex?use-vortex-scenario=true",
+                "r-bgc-vortex-scenario?use-vortex-scenario=true",
+                "r-baby-shower-checklist?use-vortex-scenario=true"
+            ] 
+        },
+        "es-PE": {
+            "babyTools": [
+                "DDC","WGC", "BGC", "BNG", "BFF"
+            ],
+            "localizedPath": {
+                "DDC": "embarazo/calculadora-de-embarazo",
+                "WGC": "embarazo/ganancia-de-peso-en-el-embarazo",
+                "BGC": "bebe/tabla-de-crecimiento",
+                "BNG": "embarazo/nombres-de-bebes/generador-de-nombres-de-bebes",
+                "BFF": "embarazo/datos-curiosos-del-cumpleanos"
+            },
+            "dontRun": {
+                "WGC": "heightInches"
+            },
+            "loggedUser": true,
+            "vortexUrl": [
+                "r-weight-gain-calc?use-vortex-scenario=true",
+                "r-bgc-vortex-scenario?use-vortex-scenario=true",
+                "r-babynamegeneratorvortex?use-vortex-scenario=true",
+                "r-babyfunfactsvortex?use-vortex-scenario=true"
+            ] 
+        },
+        "ro-RO": {
+            "babyTools": [
+                "DDC", "WGC", "BGC"
+            ],
+            "localizedPath": {
+                "DDC": "sarcina/calculator-data-nasterii-page",
+                "WGC": "sarcina/calculator-creștere-greutate-în-sarcină",
+                "BGC": "bebelusi/diagramă-de-dezvoltare-pentru-băieți-fete"
+            },
+            "dontRun": {
+                "WGC": "heightInches"
+            },
+            "loggedUser": true,
+            "vortexUrl": [
+                "r-duedatecalculatorunlocked?use-vortex-scenario=true!reactCalendarIcon",
+                "r-weight-gain-calc?use-vortex-scenario=true!reactCalendarIcon",
+                "r-bgc-vortex-scenario?use-vortex-scenario=true!reactCalendarIcon"
+            ]
+        },
+        "pl-PL": {
+            "babyTools": [
+                "BNG", "DDC", "WGC", "BGC", "BFF"
+            ],
+            "localizedPath": {
+                "BGC": "noworodek/siatka-centylowa-dla-chlopcow-i-dziewczynek",
+                "DDC": "ciaza/kalkulator-terminu-porodu-page",
+                "BNG": "ciaza/imiona-dla-dzieci/znajdz-imie-dla-dziecka",
+                "WGC": "ciaza/kalkulator-przyrostu-masy-ciala-w-trakcie-ciazy",
+                "BFF": "ciaza/ciekawostki-zwiazane-z-data-urodzin"
+            },
+            "dontRun": {
+                "WGC": "heightInches"
+            },
+            "loggedUser": true,
+            "vortexUrl": [
+                "r-bng-vortex-scenario?use-vortex-scenario=true!reactCalendarIcon",
+                "r-duedatecalculatorlocked?use-vortex-scenario=true!gdpr,reactCalendarIcon",
+                "r-wgc-vortex-scenario?use-vortex-scenario=true!reactCalendarIcon",
+                "r-bgc-vortex-scenario?use-vortex-scenario=true!reactCalendarIcon",
+                "r-babyfunfactsvortex?use-vortex-scenario=true!reactCalendarIcon"
+            ] 
+        },
+        "hu-HU": {
+            "babyTools": [
+                "DDC", "WGC", "BGC", "BFF"
+            ],
+            "localizedPath": {
+                "BGC": "ujszulott/novekedesi-diagram-fiuk-es-lanyok-szamara",
+                "WGC": "terhesseg/terhessegi-sulygyarapodasi-kalkulator",
+                "DDC": "terhesseg/szulesi-kalkulator-page",
+                "BFF": "terhesseg/kisbabak-szuletesi-datumahoz-kapcsolodo-erdekessegek"
+            },
+            "dontRun": {
+                "WGC": "heightInches"
+            },
+            "loggedUser": true,
+            "vortexUrl": [
+                "r-duedatecalculatorunlocked?use-vortex-scenario=true!gdpr,reactCalendarIcon",
+                "r-wgc-vortex-scenario?use-vortex-scenario=true!reactCalendarIcon",
+                "r-bgc-vortex-scenario?use-vortex-scenario=true!reactCalendarIcon",
+                "r-babyfunfactsvortex?use-vortex-scenario=true!reactCalendarIcon"
+            ] 
+        },
+        "hr-HR": {
+            "babyTools": [
+                "DDC", "WGC", "BGC", "BFF"
+            ],
+            "localizedPath": {
+                "WGC": "trudnoca/kalkulator-povecanja-tezine-u-trudnoci",
+                "DDC": "trudnoca/kalkulator-termina-poroda-page",
+                "BGC": "novorodence/grafikon-rasta-za-djecake-i-djevojcice",
+                "BFF": "beba/sto-bebin-datum-rodenja-znaci"
+            },
+            "dontRun": {
+                "WGC": "heightInches"
+            },
+            "loggedUser": true,
+            "vortexUrl": [
+                "r-duedatecalculatorunlocked?use-vortex-scenario=true!gdpr,reactCalendarIcon",
+                "r-wgc-vortex-scenario?use-vortex-scenario=true!reactCalendarIcon",
+                "r-bgc-vortex-scenario?use-vortex-scenario=true!reactCalendarIcon",
+                "r-babyfunfactsvortex?use-vortex-scenario=true!reactCalendarIcon"
+            ]
+        },
+        "tr-TR": {
+            "babyTools": [
+                "BNG", "DDC", "WGC", "BGC"
+            ],
+            "localizedPath": {
+                "BGC": "bebek/bebek-gelisim-tablosu",
+                "BNG": "gebelik/bebek-isimleri/bebeginize-isim-bulun",
+                "DDC": "gebelik/gebelik-hesaplama-page",
+                "WGC": "gebelik/kilo-alma-hesaplayicisi"
+            },
+            "dontRun": {
+                "WGC": "heightInches"
+            },
+            "loggedUser": true
+        },
+        "en-PH": {
+            "babyTools": [
+                "BNG", "DDC"
+            ],
+            "localizedPath": {
+                "BNG": "pregnancy/baby-names/find-your-baby-name",
+                "DDC": "pregnancy/due-date-calculator-page"
+            },
+            "loggedUser": true
+        },
+        "pt-PT": {
+            "babyTools": [
+                "DDC", "WGC", "BGC"
+            ],
+            "localizedPath": {
+                "DDC": "gravidez/calculadora-de-gravidez-page",
+                "BGC": "tabela-de-crescimento-para-meninos-e-meninas",
+                "WGC": "gravidez/calculadora-de-ganho-de-peso-durante-a-gravidez"
+            },
+            "dontRun": {
+                "WGC": "heightInches"
+            },
+            "loggedUser": true
+        },
+        "de-AT": {
+            "babyTools": [
+                 "DDC", "WGC", "BGC"
+            ],
+            "localizedPath": {
+                "DDC": "schwangerschaft/schwangerschaftsrechner-page",
+                "BGC": "baby/groessenrechner",
+                "WGC": "schwangerschaft/gewichtszunahmerechner"
+            },
+            "dontRun": {
+                "WGC": "heightInches"
+            },
+            "loggedUser": true
+        },
+        "cs-CZ": {
+            "babyTools": [
+                 "DDC", "WGC", "BGC", "BFF"
+            ],
+            "localizedPath": {
+                "DDC": "tehotenstvi/kalkulacka-porodu-page",
+                "BGC": "novorozenec/rustovy-graf-chlapcu-a-divek",
+                "WGC": "tehotenstvi/kalkulacka-narustu-hmotnosti-behem-tehotenstvi",
+                "BFF": "tehotenstvi/zajimavosti-podle-data-narozeni-detatka"
+            },
+            "dontRun": {
+                "WGC": "heightInches"
+            },
+            "loggedUser": true,
+            "vortexUrl": [
+                "r-duedatecalculatorunlocked?use-vortex-scenario=true!reactCalendarIcon",
+                "r-weight-gain-calc?use-vortex-scenario=true!reactCalendarIcon",
+                "r-bgc-vortex-scenario?use-vortex-scenario=true!reactCalendarIcon",
+                "r-babyfunfactsvortex?use-vortex-scenario=true!reactCalendarIcon",
+                "r-registry-checklist?use-vortex-scenario=true!reactCalendarIcon"
+            ] 
+        },
+        "sv-SE": {
+            "babyTools": [
+                "DDC", "BGC"
+            ],
+            "localizedPath": {
+                "BGC": "bebis/tillvaxtkurva-for-flickor-och-pojkar",
+                "DDC": "graviditet/kalkylator-for-forlossningsdatum-page"
+            },
+            "loggedUser": true,
+            "vortexUrl": [
+                "registrering?use-vortex-scenario=true!reactCalendarIcon"
+            ] 
+        },
+        "fi-FI": {
+            "babyTools": [
+                "DDC", "BGC"
+            ],
+            "localizedPath": {
+                "DDC": "raskaus/raskauslaskuri-page",
+                "BGC": "vauva/kasvukaavion"
+            },
+            "loggedUser": true,
+            "vortexUrl": [
+                "rekisteroityminen?use-vortex-scenario=true!reactCalendarIcon"
+            ] 
+        },
+        "es-US": {
+            "babyTools": [
+                "DDC", "BGC"
+            ],
+            "localizedPath": {
+                "DDC": "embarazo/calcula-la-fecha-de-tu-parto-page",
+                "BGC": "bebe/tabla-de-crecimiento-del-bebe"
+            },
+            "loggedUser": true,
+            "vortexUrl": [
+                "registration?use-vortex-scenario=true"
+            ]
+        }
+    }
+}

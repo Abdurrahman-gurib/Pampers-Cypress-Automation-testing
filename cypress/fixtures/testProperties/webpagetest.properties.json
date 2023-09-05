@@ -1,0 +1,6 @@
+{
+    "toolUrl": "https://www.webpagetest.org/",
+    "scope": [
+        "en-US", "fr-FR"
+    ]
+}

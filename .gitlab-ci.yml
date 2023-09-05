@@ -1,0 +1,23 @@
+image: docker:19.03.0
+
+services:
+    - name: docker:dind
+      entrypoint: ["env", "-u", "DOCKER_HOST"]
+      command: ["dockerd-entrypoint.sh"]
+
+variables:
+    DOCKER_HOST: tcp://docker:2375/
+    DOCKER_DRIVER: overlay2
+    DOCKER_TLS_CERTDIR: ""
+
+before_script:
+  - docker info
+
+build:
+  allow_failure: true
+  stage: deploy
+  script:
+    - docker build -t cyprox .
+    - docker run --name cyprox cyprox --spec cypress/integration/pampers-en-us/*
+  only:
+    - develop

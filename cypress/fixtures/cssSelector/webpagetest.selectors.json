@@ -1,0 +1,8 @@
+{
+    "input": "input#url",
+    "submit": ".test_presets_easy_submit .start_test",
+    "runningStatus": ".runningStatusText",
+    "testStatus": "#testing",
+    "statusActive": "is-active",
+    "resultBody": ".results_body"
+}
