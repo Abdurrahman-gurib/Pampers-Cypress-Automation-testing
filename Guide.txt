@@ -1,0 +1,13 @@
+cd Pampers-Cypress-Automation-testing
+cd cypress
+npm run
+npm run app
+npm run build
+
+change url slug in jsan file
+
+npx cypress run
+
+npx cypress open
+
+choose bash terminal 
